@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0630e02-caa3-4ec5-8fdf-422b86964521" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/RegexUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/DateTimeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/DateTimeUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/project-parent/target/" />
@@ -14,43 +16,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/DateTimeUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="240">
+              <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#254#270#0" />
-                <element signature="e#4382#4383#0" expanded="true" />
-                <element signature="e#4437#4438#0" expanded="true" />
-                <element signature="e#5315#5316#0" expanded="true" />
-                <element signature="e#5385#5386#0" expanded="true" />
-                <element signature="e#5477#5478#0" expanded="true" />
-                <element signature="e#5526#5527#0" expanded="true" />
-                <element signature="e#11295#11296#0" expanded="true" />
-                <element signature="e#11338#11339#0" expanded="true" />
-                <element signature="e#11486#11487#0" expanded="true" />
-                <element signature="e#11529#11530#0" expanded="true" />
-                <element signature="e#11676#11677#0" expanded="true" />
-                <element signature="e#11719#11720#0" expanded="true" />
-                <element signature="e#11865#11866#0" expanded="true" />
-                <element signature="e#11908#11909#0" expanded="true" />
-                <element signature="e#12055#12056#0" expanded="true" />
-                <element signature="e#12099#12100#0" expanded="true" />
-                <element signature="e#12248#12249#0" expanded="true" />
-                <element signature="e#12292#12293#0" expanded="true" />
-                <element signature="e#12441#12442#0" expanded="true" />
-                <element signature="e#12485#12486#0" expanded="true" />
-                <element signature="e#12640#12641#0" expanded="true" />
-                <element signature="e#12684#12685#0" expanded="true" />
-                <element signature="e#12838#12839#0" expanded="true" />
-                <element signature="e#12895#12896#0" expanded="true" />
-                <element signature="e#13046#13047#0" expanded="true" />
-                <element signature="e#13112#13113#0" expanded="true" />
-                <element signature="e#14622#14623#0" expanded="true" />
-                <element signature="e#14677#14678#0" expanded="true" />
+                <element signature="e#197#213#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6-sources.jar!/org/apache/commons/io/ByteOrderMark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#5861#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/RegexUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -61,8 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,6 +66,7 @@
       <find>jar</find>
       <find>log</find>
       <find>try</find>
+      <find>validate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,6 +95,7 @@
         <option value="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/io/FilenameUtils.java" />
         <option value="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/constant/StringConstant.java" />
         <option value="$PROJECT_DIR$/project-utils/src/test/java/com/spring/project/utils/StringUtilsTest.java" />
+        <option value="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/RegexUtils.java" />
         <option value="$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/DateTimeUtils.java" />
       </list>
     </option>
@@ -153,6 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +191,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiksdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,18 +246,43 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-io-2.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-io-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-project1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558676880533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558679840821" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -244,7 +292,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -315,18 +363,20 @@
       <updated>1558603388456</updated>
       <workItem from="1558603389761" duration="5832000" />
       <workItem from="1558667892483" duration="2219000" />
-      <workItem from="1558677133393" duration="44000" />
+      <workItem from="1558677133393" duration="852000" />
+      <workItem from="1558678855108" duration="978000" />
+      <workItem from="1558685650102" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8095000" />
+    <option name="totallyTimeSpent" value="9894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23720682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -555,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/BooleanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/CharSetUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -645,41 +688,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/BooleanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.6/commons-validator-1.6.jar!/org/apache/commons/validator/Validator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="131" column="36" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/DateTimeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="240">
+          <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#254#270#0" />
-            <element signature="e#4382#4383#0" expanded="true" />
-            <element signature="e#4437#4438#0" expanded="true" />
-            <element signature="e#5315#5316#0" expanded="true" />
-            <element signature="e#5385#5386#0" expanded="true" />
-            <element signature="e#5477#5478#0" expanded="true" />
-            <element signature="e#5526#5527#0" expanded="true" />
-            <element signature="e#11295#11296#0" expanded="true" />
-            <element signature="e#11338#11339#0" expanded="true" />
-            <element signature="e#11486#11487#0" expanded="true" />
-            <element signature="e#11529#11530#0" expanded="true" />
-            <element signature="e#11676#11677#0" expanded="true" />
-            <element signature="e#11719#11720#0" expanded="true" />
-            <element signature="e#11865#11866#0" expanded="true" />
-            <element signature="e#11908#11909#0" expanded="true" />
-            <element signature="e#12055#12056#0" expanded="true" />
-            <element signature="e#12099#12100#0" expanded="true" />
-            <element signature="e#12248#12249#0" expanded="true" />
-            <element signature="e#12292#12293#0" expanded="true" />
-            <element signature="e#12441#12442#0" expanded="true" />
-            <element signature="e#12485#12486#0" expanded="true" />
-            <element signature="e#12640#12641#0" expanded="true" />
-            <element signature="e#12684#12685#0" expanded="true" />
-            <element signature="e#12838#12839#0" expanded="true" />
-            <element signature="e#12895#12896#0" expanded="true" />
-            <element signature="e#13046#13047#0" expanded="true" />
-            <element signature="e#13112#13113#0" expanded="true" />
-            <element signature="e#14622#14623#0" expanded="true" />
-            <element signature="e#14677#14678#0" expanded="true" />
+            <element signature="e#197#213#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-utils/src/main/java/com/spring/project/utils/lang/RegexUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6-sources.jar!/org/apache/commons/io/ByteOrderMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#5861#0" expanded="true" />
           </folding>
         </state>
       </provider>

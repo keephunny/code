@@ -10,98 +10,111 @@ public class DateTimeUtils {
 
     //#region 日期时间格式
     /**
-     * 默认日期格式
+     * 默认日期格式 yyyy-MM-dd
      */
     public static final String DateFomat = "yyyy-MM-dd";
 
     /**
-     * 默认日期时间格式
+     * 默认日期时间格式 yyyy-MM-dd HH:mm:ss
      */
     public static final String DateTimeFomat = "yyyy-MM-dd HH:mm:ss";
 
     /**
-     * 日期格式，年份，例如：2004，2008
+     * 日期格式 yyyy
      */
     public static final String DATE_FORMAT_YYYY = "yyyy";
 
     /**
-     * 日期格式，年份和月份，例如：200707，200808
+     * 日期格式 yyyyMM
      */
     public static final String DATE_FORMAT_YYYYMM = "yyyyMM";
 
     /**
-     * 日期格式，年份和月份，例如：200707，2008-08
+     * 日期格式 yyyy-MM
      */
     public static final String DATE_FORMAT_YYYY_MM = "yyyy-MM";
 
     /**
-     * 日期格式，年月日，例如：050630，080808
+     * 日期格式 yyMMdd
      */
     public static final String DATE_FORMAT_YYMMDD = "yyMMdd";
 
     /**
-     * 日期格式，年月日，用横杠分开，例如：06-12-25，08-08-08
+     * 日期格式 yy-MM-dd
      */
     public static final String DATE_FORMAT_YY_MM_DD = "yy-MM-dd";
 
     /**
-     * 日期格式，年月日，例如：20050630，20080808
+     * 日期格式 yyyyMMdd
      */
     public static final String DATE_FORMAT_YYYYMMDD = "yyyyMMdd";
 
     /**
-     * 日期格式，年月日，用横杠分开，例如：2006-12-25，2008-08-08
+     * 日期格式 yyyy-MM-dd
      */
     public static final String DATE_FORMAT_YYYY_MM_DD = "yyyy-MM-dd";
 
     /**
-     * 日期格式，年月日，例如：2016.10.05
+     * 日期格式 yyyy.MM.dd
      */
     public static final String DATE_FORMAT_POINTYYYYMMDD = "yyyy.MM.dd";
 
     /**
-     * 日期格式，年月日，例如：2016年10月05日
+     * 日期格式 yyyy年MM月dd日
      */
-    public static final String DATE_TIME_FORMAT_YYYY年MM月DD日 = "yyyy年MM月dd日";
+    public static final String DATE_FORMAT_YYYYMMDD_CN = "yyyy年MM月dd日";
 
     /**
-     * 日期格式，年月日时分，例如：200506301210，200808081210
+     * 日期格式 yyyy年MM月dd日
+     */
+    public static final String DATE_FORMAT_YYMMDD_CN = "yy年MM月dd日";
+
+    /**
+     * 日期格式 yyyy年MM月dd日
+     */
+    public static final String DATE_FORMAT_YYMM_CN = "yy年MM月";
+
+    /**
+     * 日期格式 yyyy年MM月dd日
+     */
+    public static final String DATE_FORMAT_MMDD_CN = "MM月dd日";
+
+    /**
+     * 日期格式 yyyyMMddHHmm
      */
     public static final String DATE_FORMAT_YYYYMMDDHHmm = "yyyyMMddHHmm";
 
     /**
-     * 日期格式，年月日时分，例如：20001230 12:00，20080808 20:08
+     * 日期格式 yyyyMMdd HH:mm
      */
     public static final String DATE_TIME_FORMAT_YYYYMMDD_HH_MI = "yyyyMMdd HH:mm";
 
     /**
-     * 日期格式，年月日时分，例如：2000-12-30 12:00，2008-08-08 20:08
+     * 日期格式 yyyy-MM-dd HH:mm
      */
     public static final String DATE_TIME_FORMAT_YYYY_MM_DD_HH_MI = "yyyy-MM-dd HH:mm";
 
     /**
-     * 日期格式，年月日时分秒，例如：20001230120000，20080808200808
+     * 日期格式 yyyyMMddHHmmss
      */
     public static final String DATE_TIME_FORMAT_YYYYMMDDHHMISS = "yyyyMMddHHmmss";
 
     /**
-     * 日期格式，年月日时分秒，年月日用横杠分开，时分秒用冒号分开
-     * 例如：2005-05-10 23：20：00，2008-08-08 20:08:08
+     * 日期格式 yyyy-MM-dd HH:mm:ss
      */
     public static final String DATE_TIME_FORMAT_YYYY_MM_DD_HH_MI_SS = "yyyy-MM-dd HH:mm:ss";
 
     /**
-     * 日期格式，年月日时分秒毫秒，例如：20001230120000123，20080808200808456
+     * 日期格式 yyyyMMddHHmmssSSS
      */
     public static final String DATE_TIME_FORMAT_YYYYMMDDHHMISSSSS = "yyyyMMddHHmmssSSS";
 
     /**
-     * 日期格式，月日时分，例如：10-05 12:00
+     * 日期格式 MM-dd HH:mm
      */
-    public static final String DATE_FORMAT_MMDDHHMI = "MM-dd HH:mm";
+    public static final String DATE_TIME_FORMAT_MMDDHHMI = "MM-dd HH:mm";
 
     //#endregion
-
 
     /**
      * 把日期字符串格式化成日期类型
