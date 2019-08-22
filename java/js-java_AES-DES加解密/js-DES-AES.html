@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>JS设置DES/AES加密处理</title>
+		<script type="text/javascript" src=".\CryptoJS\jquery.min.js"></script>
+		<script src=".\CryptoJS\rollups\tripledes.js"></script>
+		<script src=".\CryptoJS\components\mode-ecb.js"></script>
+		<script src=".\CryptoJS\components\aes.js"></script>
+		<script>
+			//DES 解密 加密
+			function encryptByDES(message, key) {
+				var keyHex = CryptoJS.enc.Utf8.parse(key);
+				var encrypted = CryptoJS.DES.encrypt(message, keyHex, {
+					mode: CryptoJS.mode.ECB,
+					padding: CryptoJS.pad.Pkcs7
+				});
+				return encrypted.toString();
+			}
+			//DES 解密
+			function decryptByDES(ciphertext, key) {
+				var keyHex = CryptoJS.enc.Utf8.parse(key);
+				// direct decrypt ciphertext
+				var decrypted = CryptoJS.DES.decrypt({
+					ciphertext: CryptoJS.enc.Base64.parse(ciphertext)
+				}, keyHex, {
+					mode: CryptoJS.mode.ECB,
+					padding: CryptoJS.pad.Pkcs7
+				});
+				return decrypted.toString(CryptoJS.enc.Utf8);
+			}
+			//AES 解密 加密
+			function encryptByAES(message, key) {
+				var keyHex = CryptoJS.enc.Utf8.parse(key);
+				var encrypted = CryptoJS.AES.encrypt(message, keyHex, {
+					mode: CryptoJS.mode.ECB,
+					padding: CryptoJS.pad.Pkcs7
+				});
+				return encrypted.toString();
+			}
+			//AES 解密
+			function decryptByAES(ciphertext, key) {
+				var keyHex = CryptoJS.enc.Utf8.parse(key);
+				// direct decrypt ciphertext
+				var decrypted = CryptoJS.AES.decrypt({
+					ciphertext: CryptoJS.enc.Base64.parse(ciphertext)
+				}, keyHex, {
+					mode: CryptoJS.mode.ECB,
+					padding: CryptoJS.pad.Pkcs7
+				});
+				return decrypted.toString(CryptoJS.enc.Utf8);
+			}
+		</script>
+		<script>
+			//DES加密
+			function encryptStrByDES() {
+				var strKey = $.trim($('#key').val());
+				var strMsg = $.trim($('#text1').val());
+				$('#text2').val(encryptByDES(strMsg, strKey));
+			}
+			//DES解密
+			function decryptStrByDES() {
+				var strKey = $.trim($('#key').val());
+				var ciphertext = $.trim($('#text2').val());
+				$('#text3').val(decryptByDES(ciphertext, strKey));
+			}
+			//AES加密
+			function encryptStrByAES() {
+				var strKey = $.trim($('#key').val());
+				var strMsg = $.trim($('#text4').val());
+				$('#text5').val(encryptByAES(strMsg, strKey));
+			}
+			//AES解密
+			function decryptStrByAES() {
+				var strKey = $.trim($('#key').val());
+				var ciphertext = $.trim($('#text5').val());
+				$('#text6').val(decryptByAES(ciphertext, strKey));
+			}
+		</script>
+	</head>
+	<body>
+		<h1>JS设置DES/AES加密处理</h1>
+		<label>key</label>
+		<input type="text" value='12345678' id="key" />
+		<div>
+			<textarea id="text1" placeholder="请输入需要加密的字符">abcde12345这个中文!@#!@$#%$#^%(":''")[]=_-</textarea>
+			<input type="button" value="DES加密" onclick="encryptStrByDES();" />
+			<textarea id="text2"></textarea>
+			<input type="button" value="DES解密" onclick="decryptStrByDES();" />
+			<textarea id="text3"></textarea>
+		</div>
+		<div>
+			<textarea id="text4" placeholder="请输入需要加密的字符">abcde12345这个中文!@#!@$#%$#^%(":''")[]=_-</textarea>
+			<input type="button" value="AES加密" onclick="encryptStrByAES();" />
+			<textarea id="text5"></textarea>
+			<input type="button" value="AES解密" onclick="decryptStrByAES();" />
+			<textarea id="text6"></textarea>
+		</div>
+	</body>
+</html>

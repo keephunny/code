@@ -54,22 +54,46 @@
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
     </dependency>
-    <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>commons-compress</groupId>
-      <artifactId>commons-comoress</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>commons-validator</groupId>
-      <artifactId>commons-validator</artifactId>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>commons-collections</groupId>-->
+      <!--<artifactId>commons-collections</artifactId>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>commons-compress</groupId>-->
+      <!--<artifactId>commons-comoress</artifactId>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>commons-validator</groupId>-->
+      <!--<artifactId>commons-validator</artifactId>-->
+    <!--</dependency>-->
     <!--end apache commons工具类-->
 
   </dependencies>
 
   <build>
+    <plugins>
+      <!--配置生成Javadoc包-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.9.1</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <aggregate>true</aggregate>
+          <charset>UTF-8</charset>
+          <docencoding>UTF-8</docencoding>
+          <!--<reportOutputDirectory>./javadoc<reportOutputDirectory>-->
+        </configuration>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
 </project>
