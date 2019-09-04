@@ -2074,3 +2074,39 @@ Caused by: org.springframework.boot.bind.RelaxedBindingNotWritablePropertyExcept
 2019-09-04 16:16:56.163 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - 433 -- Registering beans for JMX exposure on startup
 2019-09-04 16:16:56.188 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - 206 -- Tomcat started on port(s): 8080 (http) with context path ''
 2019-09-04 16:16:56.190 [main] [INFO ] c.spring.project.web.api.Application - 59 -- Started Application in 1.534 seconds (JVM running for 2.284)
+2019-09-04 17:54:22.573 [main] [INFO ] c.spring.project.web.api.Application - 27 -- 程序启动
+2019-09-04 17:54:23.037 [main] [INFO ] c.spring.project.web.api.Application - 50 -- Starting Application on wq-PC with PID 8180 (D:\github\code\java\spring-project-web1.0\project-web-api\target\classes started by wq in D:\github\code\java\spring-project-web1.0\project-web)
+2019-09-04 17:54:23.037 [main] [INFO ] c.spring.project.web.api.Application - 666 -- The following profiles are active: dev
+2019-09-04 17:54:23.070 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - 590 -- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ce24091: startup date [Wed Sep 04 17:54:23 CST 2019]; root of context hierarchy
+2019-09-04 17:54:23.756 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - 91 -- Tomcat initialized with port(s): 8080 (http)
+2019-09-04 17:54:23.770 [main] [INFO ] o.a.catalina.core.StandardService - 180 -- Starting service [Tomcat]
+2019-09-04 17:54:23.771 [main] [INFO ] o.a.catalina.core.StandardEngine - 180 -- Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-09-04 17:54:23.775 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - 180 -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;E:\Program Files\apache-maven\bin;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Java\jdk1.8.0_45\jre\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Users\wq\AppData\Roaming\npm;C:\Users\wq\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\wq\AppData\Local\GitHubDesktop\bin;.]
+2019-09-04 17:54:23.843 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - 180 -- Initializing Spring embedded WebApplicationContext
+2019-09-04 17:54:23.843 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - 285 -- Root WebApplicationContext: initialization completed in 773 ms
+2019-09-04 17:54:23.879 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - 187 -- Servlet dispatcherServlet mapped to [/]
+2019-09-04 17:54:23.882 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - 245 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-04 17:54:23.882 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - 245 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-04 17:54:23.882 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - 245 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-04 17:54:23.882 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - 245 -- Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-04 17:54:23.912 [main] [INFO ] org.dozer.config.GlobalSettings - 113 -- Trying to find Dozer configuration file: dozer.properties
+2019-09-04 17:54:23.915 [main] [WARN ] org.dozer.config.GlobalSettings - 118 -- Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-09-04 17:54:23.917 [main] [INFO ] org.dozer.DozerInitializer - 75 -- Initializing Dozer. Version: 5.5.0, Thread Name: main
+2019-09-04 17:54:23.918 [main] [INFO ] org.dozer.jmx.JMXPlatformImpl - 66 -- Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-09-04 17:54:23.919 [main] [INFO ] org.dozer.jmx.JMXPlatformImpl - 66 -- Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-09-04 17:54:23.919 [main] [INFO ] org.dozer.DozerBeanMapper - 175 -- Initializing a new instance of dozer bean mapper.
+2019-09-04 17:54:23.957 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - 373 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-04 17:54:24.008 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - 574 -- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ce24091: startup date [Wed Sep 04 17:54:23 CST 2019]; root of context hierarchy
+2019-09-04 17:54:24.044 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 547 -- Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.project.web.api.controller.TestController.test(javax.servlet.http.HttpServletRequest)
+2019-09-04 17:54:24.045 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 547 -- Mapped "{[/dozer],methods=[GET]}" onto public java.lang.String com.spring.project.web.api.controller.TestController.dozer()
+2019-09-04 17:54:24.046 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 547 -- Mapped "{[/test2],methods=[GET]}" onto public java.lang.String com.spring.project.web.api.controller.TestController.test2(javax.servlet.http.HttpServletRequest)
+2019-09-04 17:54:24.048 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 547 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-04 17:54:24.049 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 547 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-04 17:54:24.062 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - 373 -- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-04 17:54:24.119 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping - 56 -- Adding welcome page: class path resource [static/index.html]
+2019-09-04 17:54:24.177 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - 433 -- Registering beans for JMX exposure on startup
+2019-09-04 17:54:24.203 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - 206 -- Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-04 17:54:24.205 [main] [INFO ] c.spring.project.web.api.Application - 59 -- Started Application in 1.536 seconds (JVM running for 2.054)
+2019-09-04 17:54:37.719 [http-nio-8080-exec-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - 180 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-04 17:54:37.720 [http-nio-8080-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - 494 -- FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-04 17:54:37.742 [http-nio-8080-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - 509 -- FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms

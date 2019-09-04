@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1798f903-3728-4e98-aa33-d21d873aa452" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-io/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-io/src/main/java/com/spring/project/demo/io/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-io/src/main/java/com/spring/project/demo/io/FileChangeWatchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-prd.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/component.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/prd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/dozer/dozer-mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/ehcache-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-prd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/static/lib/jquery-1.9.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project1.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project1.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project1.0/project-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project1.0/project-parent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/DozerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/dto/UserInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,12 +23,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="308">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,6 +52,8 @@
       <find>resources</find>
       <find>ven-resources-plu</find>
       <find>web</find>
+      <find>doze</find>
+      <find>dozer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,6 +78,9 @@
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../project-web-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/dto/UserInfoDto.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/DozerConfig.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" />
       </list>
     </option>
@@ -204,7 +184,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567590261547" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567590871022" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -268,15 +248,16 @@
       <updated>1567567451800</updated>
       <workItem from="1567567455302" duration="551000" />
       <workItem from="1567568010811" duration="6942000" />
-      <workItem from="1567582739430" duration="7484000" />
+      <workItem from="1567582739430" duration="8098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14977000" />
+    <option name="totallyTimeSpent" value="15591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -480,20 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="158" column="47" lean-forward="true" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/component.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -501,14 +468,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/ehcache-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding>
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/dto/UserInfoDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/DozerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
           </folding>
         </state>
       </provider>
