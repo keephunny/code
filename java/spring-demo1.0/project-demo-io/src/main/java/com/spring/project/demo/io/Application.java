@@ -10,4 +10,7 @@ package com.spring.project.demo.io;
  * 创建时间 2019-09-03 17:57
  */
 public class Application {
+    public static void main(String[] args) {
+        //文件遍历
+    }
 }

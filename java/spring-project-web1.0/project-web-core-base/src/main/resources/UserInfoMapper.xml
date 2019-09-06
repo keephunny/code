@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.project.web.core.base.mapper.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.spring.project.web.core.base.entity.UserInfo">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_pwd" jdbcType="VARCHAR" property="userPwd" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="department_id" jdbcType="INTEGER" property="departmentId" />
+    <result column="department_name" jdbcType="VARCHAR" property="departmentName" />
+    <result column="position" jdbcType="VARCHAR" property="position" />
+    <result column="not_delete" jdbcType="BIT" property="notDelete" />
+    <result column="status" jdbcType="BIT" property="status" />
+    <result column="role_id" jdbcType="INTEGER" property="roleId" />
+    <result column="sort_no" jdbcType="INTEGER" property="sortNo" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="create_user" jdbcType="VARCHAR" property="createUser" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="update_user" jdbcType="VARCHAR" property="updateUser" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from user_info
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.spring.project.web.core.base..entity.UserInfo">
+    <selectKey keyProperty="id" order="BEFORE" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into user_info (user_name, user_pwd,
+      real_name, phone, department_id, 
+      department_name, position, not_delete, 
+      status, role_id, sort_no, 
+      create_time, create_user, update_time, 
+      update_user)
+    values ( #{userName,jdbcType=VARCHAR}, #{userPwd,jdbcType=VARCHAR},
+      #{realName,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{departmentId,jdbcType=INTEGER}, 
+      #{departmentName,jdbcType=VARCHAR}, #{position,jdbcType=VARCHAR}, #{notDelete,jdbcType=BIT}, 
+      #{status,jdbcType=BIT}, #{roleId,jdbcType=INTEGER}, #{sortNo,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{createUser,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, 
+      #{updateUser,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.spring.project.web.core.base..entity.UserInfo">
+    update user_info
+    set user_name = #{userName,jdbcType=VARCHAR},
+      user_pwd = #{userPwd,jdbcType=VARCHAR},
+      real_name = #{realName,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      department_id = #{departmentId,jdbcType=INTEGER},
+      department_name = #{departmentName,jdbcType=VARCHAR},
+      position = #{position,jdbcType=VARCHAR},
+      not_delete = #{notDelete,jdbcType=BIT},
+      status = #{status,jdbcType=BIT},
+      role_id = #{roleId,jdbcType=INTEGER},
+      sort_no = #{sortNo,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      create_user = #{createUser,jdbcType=VARCHAR},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      update_user = #{updateUser,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, user_name, user_pwd, real_name, phone, department_id, department_name, 
+    position, not_delete, status, role_id, sort_no, create_time, create_user, update_time, 
+    update_user
+    from user_info
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, user_name, user_pwd, real_name, phone, department_id, department_name,
+    position, not_delete, status, role_id, sort_no, create_time, create_user, update_time,
+    update_user
+    from user_info
+  </select>
+</mapper>

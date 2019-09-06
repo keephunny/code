@@ -1,0 +1,7 @@
+com\spring\project\web\core\entity\UserInfo.class
+com\spring\project\web\core\mapper\UserInfoMapper.class
+com\spring\project\web\core\App.class
+com\spring\project\web\core\service\UserInfoService.class
+com\spring\project\web\core\service\impl\UserInfoServiceImpl.class
+com\spring\project\web\core\entity\query\QueryPage.class
+com\spring\project\web\core\entity\query\UserInfoQueryPage.class

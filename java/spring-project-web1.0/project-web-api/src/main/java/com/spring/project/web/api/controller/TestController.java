@@ -5,6 +5,7 @@ package com.spring.project.web.api.controller;
 
 import com.spring.project.web.dto.UserInfoDto;
 import com.spring.project.web.entity.UserInfo;
+import com.spring.project.web.vo.UserInfoVo;
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -57,6 +58,15 @@ public class TestController {
         UserInfo userInfo = new UserInfo(1, "admin", "123", new Date());
         UserInfoDto userInfoDto = dozerBeanMapper.map(userInfo, UserInfoDto.class);
         System.out.println(userInfoDto.getUserName());
+        System.out.println(userInfoDto.getInsertTime());
         return null;
+    }
+
+
+    @GetMapping(value = "/fastjson")
+    @ResponseBody()
+    public UserInfoVo fastjson() {
+        UserInfoVo userInfoVo = new UserInfoVo(1, "admin", "123", new Date());
+        return userInfoVo;
     }
 }

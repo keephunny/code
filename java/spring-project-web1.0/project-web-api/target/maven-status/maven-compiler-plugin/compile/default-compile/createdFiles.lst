@@ -1,3 +1,9 @@
-com\spring\project\web\api\config\WebMvcConfig.class
+com\spring\project\web\entity\UserInfo.class
+com\spring\project\web\api\config\DozerConfig.class
+com\spring\project\web\dto\UserInfoDto.class
 com\spring\project\web\api\Application.class
+com\spring\project\web\api\config\WebMvcConfig.class
+com\spring\project\web\vo\UserInfoVo.class
+com\spring\project\web\api\controller\BaseController.class
+com\spring\project\web\api\controller\UserInfoController.class
 com\spring\project\web\api\controller\TestController.class

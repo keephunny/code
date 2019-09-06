@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class UserInfoDto {
     private String userName;
-    private Date insertTime;
+    private String insertTime;
 
     public String getUserName() {
         return userName;
@@ -23,11 +23,11 @@ public class UserInfoDto {
         this.userName = userName;
     }
 
-    public Date getInsertTime() {
+    public String getInsertTime() {
         return insertTime;
     }
 
-    public void setInsertTime(Date insertTime) {
+    public void setInsertTime(String insertTime) {
         this.insertTime = insertTime;
     }
 }

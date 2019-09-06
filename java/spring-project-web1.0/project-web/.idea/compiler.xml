@@ -7,12 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="project-web-api" />
+        <module name="project-web-core" />
+        <module name="project-web-utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="project-web-core-base" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="project-web-api" options="-parameters" />
+      <module name="project-web-core" options="-parameters" />
+      <module name="project-web-core-base" options="-parameters" />
+      <module name="project-web-utils" options="-parameters" />
     </option>
   </component>
 </project>
