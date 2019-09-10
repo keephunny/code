@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * //TODO 添加说明
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-09-04 17:47
  */
 public class UserInfoDto {

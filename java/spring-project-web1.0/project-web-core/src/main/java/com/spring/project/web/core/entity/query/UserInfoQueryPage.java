@@ -6,7 +6,7 @@ package com.spring.project.web.core.entity.query;
 /**
  * 用户查询参数
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-09-05 16:54
  */
 public class UserInfoQueryPage extends QueryPage {

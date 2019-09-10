@@ -19,7 +19,7 @@ import java.util.Date;
 /**
  * //TODO 添加说明
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-09-04 11:36
  */
 @Controller
@@ -65,7 +65,7 @@ public class TestController {
 
     @GetMapping(value = "/fastjson")
     @ResponseBody()
-    public UserInfoVo fastjson() {
+    public UserInfoVo fastjson(Integer id) {
         UserInfoVo userInfoVo = new UserInfoVo(1, "admin", "123", new Date());
         return userInfoVo;
     }

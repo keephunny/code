@@ -14,5 +14,11 @@ public class App {
         TypeEnum typeEnum=TypeEnum.valueOf("CANCEL");
 
         System.out.println(typeEnum.getStr());
+
+        try {
+            throw new Exception("sdffdsdfs");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

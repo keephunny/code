@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * webapi接口主程序入口
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-09-04 11:29
  */
 @SpringBootApplication(exclude = {HibernateJpaAutoConfiguration.class}, scanBasePackages = {"com.spring.project.web.api", "com.spring.project.web.core"})

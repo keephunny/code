@@ -6,7 +6,7 @@ package com.spring.project.web.core.entity;
 /**
  * //TODO 添加说明
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-09-05 16:43
  */
 public class UserInfo {

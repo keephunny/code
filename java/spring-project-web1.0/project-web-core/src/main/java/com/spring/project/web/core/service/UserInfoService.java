@@ -8,7 +8,7 @@ import com.spring.project.web.core.entity.UserInfo;
 /**
  * //TODO 添加说明
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-09-06 16:18
  */
 public interface UserInfoService {

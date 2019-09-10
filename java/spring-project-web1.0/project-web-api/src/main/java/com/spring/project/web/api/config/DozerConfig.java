@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 各个模块的dozer配置文件
  *
- * @author 汪强
+ * @author w
  * 创建时间 2019-07-12 16:40
  */
 @Configuration
