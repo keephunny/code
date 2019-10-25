@@ -1,7 +1,12 @@
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\App.java
+D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\mapper\BaseMapper.java
+D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\service\impl\RoleServiceImpl.java
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\service\UserInfoService.java
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\service\impl\UserInfoServiceImpl.java
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\entity\query\UserInfoQueryPage.java
+D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\service\BaseService.java
+D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\service\impl\BaseServiceImpl.java
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\entity\UserInfo.java
+D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\service\RoleService.java
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\mapper\UserInfoMapper.java
 D:\github\code\java\spring-project-web1.0\project-web-core\src\main\java\com\spring\project\web\core\entity\query\QueryPage.java

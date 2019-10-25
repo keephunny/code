@@ -8,7 +8,6 @@
     <result column="real_name" jdbcType="VARCHAR" property="realName" />
     <result column="phone" jdbcType="VARCHAR" property="phone" />
     <result column="department_id" jdbcType="INTEGER" property="departmentId" />
-    <result column="department_name" jdbcType="VARCHAR" property="departmentName" />
     <result column="position" jdbcType="VARCHAR" property="position" />
     <result column="not_delete" jdbcType="BIT" property="notDelete" />
     <result column="status" jdbcType="BIT" property="status" />
@@ -29,7 +28,7 @@
     </selectKey>
     insert into user_info (user_name, user_pwd,
       real_name, phone, department_id, 
-      department_name, position, not_delete, 
+      position, not_delete,
       status, role_id, sort_no, 
       create_time, create_user, update_time, 
       update_user)
@@ -47,7 +46,6 @@
       real_name = #{realName,jdbcType=VARCHAR},
       phone = #{phone,jdbcType=VARCHAR},
       department_id = #{departmentId,jdbcType=INTEGER},
-      department_name = #{departmentName,jdbcType=VARCHAR},
       position = #{position,jdbcType=VARCHAR},
       not_delete = #{notDelete,jdbcType=BIT},
       status = #{status,jdbcType=BIT},
@@ -60,14 +58,14 @@
     where id = #{id,jdbcType=INTEGER}
   </update>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select id, user_name, user_pwd, real_name, phone, department_id, department_name, 
+    select id, user_name, user_pwd, real_name, phone, department_id,
     position, not_delete, status, role_id, sort_no, create_time, create_user, update_time, 
     update_user
     from user_info
     where id = #{id,jdbcType=INTEGER}
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
-    select id, user_name, user_pwd, real_name, phone, department_id, department_name,
+    select id, user_name, user_pwd, real_name, phone, department_id,
     position, not_delete, status, role_id, sort_no, create_time, create_user, update_time,
     update_user
     from user_info

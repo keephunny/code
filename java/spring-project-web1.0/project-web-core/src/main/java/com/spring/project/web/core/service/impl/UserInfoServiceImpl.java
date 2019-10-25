@@ -9,6 +9,8 @@ import com.spring.project.web.core.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * //TODO 添加说明
  *
@@ -16,15 +18,6 @@ import org.springframework.stereotype.Service;
  * 创建时间 2019-09-06 16:18
  */
 @Service("userInfoService")
-public class UserInfoServiceImpl  implements UserInfoService {
-    @Autowired
-    private UserInfoMapper userInfoMapper;
+public class UserInfoServiceImpl extends BaseServiceImpl<UserInfo> implements UserInfoService {
 
-
-    @Override
-    public UserInfo queryAll() {
-        UserInfo userInfo = new UserInfo();
-        userInfo.setId(1);
-        return userInfo;
-    }
 }

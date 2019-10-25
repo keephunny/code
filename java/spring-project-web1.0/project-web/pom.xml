@@ -18,6 +18,7 @@
         <module>../project-web-api</module>
         <module>../project-web-core</module>
         <module>../project-web-utils</module>
+        <module>../project-web-pojo</module>
     </modules>
 
     <name>project-web</name>

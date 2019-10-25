@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="project-web-api" />
         <module name="project-web-core" />
+        <module name="project-web-pojo" />
         <module name="project-web-utils" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="project-web-api" options="-parameters" />
       <module name="project-web-core" options="-parameters" />
       <module name="project-web-core-base" options="-parameters" />
+      <module name="project-web-pojo" options="-parameters" />
       <module name="project-web-utils" options="-parameters" />
     </option>
   </component>

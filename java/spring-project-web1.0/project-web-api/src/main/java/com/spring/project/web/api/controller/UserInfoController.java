@@ -5,7 +5,6 @@ package com.spring.project.web.api.controller;
 
 import com.spring.project.web.core.entity.UserInfo;
 import com.spring.project.web.core.service.UserInfoService;
-import com.spring.project.web.vo.QueryPageVo;
 import com.spring.project.web.vo.RespResult;
 import com.spring.project.web.vo.UserInfoQueryPageVo;
 import io.swagger.annotations.Api;
@@ -13,15 +12,12 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.NotNull;
 
 /**
  * UserInfoController
@@ -39,7 +35,7 @@ public class UserInfoController extends BaseController {
     @DeleteMapping("deleteByKey")
     @ApiOperation(value = "根据主键集合批量删除记录")
     public RespResult deleteByKey(Integer id) {
-         RespResult respResult = checkID(id);
+        RespResult respResult = checkID(id);
 
         return respResult;
     }
@@ -56,7 +52,7 @@ public class UserInfoController extends BaseController {
     @GetMapping("/queryAll")
     public RespResult queryAll() {
         RespResult respResult = new RespResult();
-        UserInfo userInfo = userInfoService.queryAll();
+        UserInfo userInfo = userInfoService.selectByPrimaryKey(1);
         respResult.setData(userInfo);
 
         return respResult;

@@ -11,7 +11,5 @@ import com.spring.project.web.core.entity.UserInfo;
  * @author w
  * 创建时间 2019-09-06 16:18
  */
-public interface UserInfoService {
-
-    UserInfo queryAll();
+public interface UserInfoService extends BaseService<UserInfo> {
 }

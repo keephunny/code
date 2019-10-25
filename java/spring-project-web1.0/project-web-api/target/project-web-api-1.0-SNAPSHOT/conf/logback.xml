@@ -16,7 +16,7 @@
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoder 默认配置为PatternLayoutEncoder -->
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %highlight([%-5level]) %logger{36} %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %highlight([%level]) %logger{36} %L %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -41,11 +41,11 @@
             <pattern>%msg</pattern>
         </encoder>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%-5level] %logger{36} - %L -- %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %highlight([%level]) %logger{36} %L %msg%n</pattern>
         </encoder>
     </appender>
 
-    <logger name="com.gscitylifeline.proj.tongling.web.core" level="debug"></logger>
+    <logger name="com.spring.project.web.api.core" level="debug"></logger>
 
     <!-- logback为java中的包 -->
     <!--<logger name="logback"/>-->
