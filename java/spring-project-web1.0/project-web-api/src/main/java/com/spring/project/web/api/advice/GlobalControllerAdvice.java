@@ -11,6 +11,7 @@ import org.springframework.core.convert.ConversionFailedException;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
+import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -54,8 +55,8 @@ public class GlobalControllerAdvice {
     @ResponseBody
     public RespResult handleException(HttpServletRequest request, HttpServletResponse response, Exception e) {
         logger.error(request.getRequestURI() + " " + e.getMessage(), e);
-        String msg = HttpStatus.INTERNAL_SERVER_ERROR.name();
-        return returResult(HttpStatus.BAD_REQUEST.value(), msg, e.getMessage());
+        String msg = "系统异常";
+        return returResult(HttpStatus.INTERNAL_SERVER_ERROR.value(), msg, e.getMessage());
     }
 
     @ExceptionHandler(IllegalStateException.class)
@@ -98,6 +99,14 @@ public class GlobalControllerAdvice {
         String msg = "参数格式错误5";
         return returResult(HttpStatus.BAD_REQUEST.value(), msg, e.getMessage());
     }
+    @ExceptionHandler(MissingServletRequestParameterException.class)
+    @ResponseBody
+    public RespResult handleMissingServletRequestParameterException(HttpServletRequest request, MissingServletRequestParameterException e) {
+        logger.error(request.getRequestURI() + " " + e.getMessage(), e);
+        String msg = "参数缺少";
+        return returResult(HttpStatus.BAD_REQUEST.value(), msg, e.getMessage());
+    }
+
 
 
     /**

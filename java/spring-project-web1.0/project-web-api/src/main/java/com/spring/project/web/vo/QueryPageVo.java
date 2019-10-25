@@ -10,12 +10,12 @@ import javax.validation.constraints.Past;
 import java.text.ParseException;
 import java.util.Date;
 
-public class RequestQueryPageVo {
+public class QueryPageVo {
     /**
      * 分页查询起页
      */
     @NotNull(message = "起始页不允许为空")
-    @Min(value = 0, message = "起始页不允许小于0")
+    @Min(value = 0)
     private Integer start = 0;
 
     /**
@@ -29,19 +29,16 @@ public class RequestQueryPageVo {
      * 开始时间
      */
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    //@Past(message = "开始时间不允超当前时间")
+    @Past(message = "开始时间不允超当前时间")
     private Date beginDate;
 
     /**
      * 截止时间
+     * 开始时间不能大于结束时 结束时间为null 例外
      */
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @Past(message = "结束时间不允超当前时间")
     private Date endDate;
-
-    /**
-     * 关键字
-     */
-    @QueryKey(contains = "abc", message = "关键字必须包含abc")
-    private String keyword;
 
     /**
      * 获取开始页
@@ -113,14 +110,6 @@ public class RequestQueryPageVo {
      */
     public void setEndDate(Date endDate) {
         this.endDate = endDate;
-    }
-
-    public String getKeyword() {
-        return keyword;
-    }
-
-    public void setKeyword(String keyword) {
-        this.keyword = keyword;
     }
 }
 

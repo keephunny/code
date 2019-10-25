@@ -23,7 +23,6 @@ public class UserInfoServiceImpl  implements UserInfoService {
 
     @Override
     public UserInfo queryAll() {
-
         UserInfo userInfo = new UserInfo();
         userInfo.setId(1);
         return userInfo;

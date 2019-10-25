@@ -27,6 +27,35 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+
+
+        <!--begin apache commons工具类-->
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-compress</artifactId>
+        </dependency>
+
+        <!--<dependency>-->
+        <!--<groupId>commons-validator</groupId>-->
+        <!--<artifactId>commons-validator</artifactId>-->
+        <!--</dependency>-->
+        <!--end apache commons工具类-->
     </dependencies>
     <build>
         <plugins>
