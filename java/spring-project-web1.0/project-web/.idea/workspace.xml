@@ -2,12 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1798f903-3728-4e98-aa33-d21d873aa452" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../logs/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/HdrHistogram-2.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/LatencyUtils-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/byte-buddy-1.7.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/commons-compress-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/commons-net-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/guava-18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/hibernate-validator-6.0.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/javassist-3.21.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/mapstruct-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/micrometer-core-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/project-web-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/reflections-0.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/spring-boot-actuator-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/spring-boot-actuator-autoconfigure-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/spring-boot-starter-actuator-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/spring-boot-starter-validation-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-core-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-schema-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-spi-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-spring-web-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-swagger-common-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-swagger-ui-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/springfox-swagger2-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/swagger-annotations-1.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/swagger-models-1.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/mapper/BaseMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/BaseService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/BaseServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/mapper/BaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/service/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-core/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-web-pojo/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-web-pojo/project-web-pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-pojo/src/main/java/com/spring/project/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-pojo/src/test/java/com/spring/project/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/target/classes/META-INF/project-web-api.kotlin_module" beforeDir="false" />
@@ -37,7 +79,7 @@
       <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/static/lib/jquery-1.9.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/static/lib/jquery-1.9.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/conf/static/jquery-1.9.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/project-web-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/project-web-api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/project-web-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/target/project-web-api-1.0-SNAPSHOT/lib/project-web-core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/UserInfo.java" afterDir="false" />
@@ -45,7 +87,7 @@
       <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/UserInfoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/resources/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/base/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/target/classes/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-core/target/classes/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/target/classes/mapper/base/UserInfoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/entity/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/entity/UserInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/entity/query/QueryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/target/classes/com/spring/project/web/core/entity/query/QueryPage.class" afterDir="false" />
@@ -116,18 +158,6 @@
               <folding>
                 <element signature="e#5956#5957#0" expanded="true" />
                 <element signature="e#6010#6011#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/BaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -340,7 +370,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571997854491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571997875859" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -466,12 +496,12 @@
       <workItem from="1571052357041" duration="826000" />
       <workItem from="1571186745242" duration="996000" />
       <workItem from="1571821317593" duration="2496000" />
-      <workItem from="1571992070020" duration="5770000" />
+      <workItem from="1571992070020" duration="5809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151827000" />
+    <option name="totallyTimeSpent" value="151866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -889,23 +919,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/dozer/dozer-mapping.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="44" column="45" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/dozer/dozer-mapping.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -919,6 +939,16 @@
           <folding>
             <element signature="e#5956#5957#0" expanded="true" />
             <element signature="e#6010#6011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
