@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95d3a568-69ed-462c-8fe5-1001c87d3589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/advice/GlobalControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/validator/QueryKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/validator/QueryPageValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/vo/RequestQueryPageVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/vo/RespResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-demo-io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-demo-io/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-demo-other/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-demo-other/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-demo-other/target/classes/com/spring/project/demo/other/enums/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../project-demo-other/target/classes/com/spring/project/demo/other/enums/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/static/lib/jquery-1.9.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/static/jquery-1.9.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/com/spring/project/web/api/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/com/spring/project/web/api/controller/BaseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/com/spring/project/web/api/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/com/spring/project/web/api/controller/UserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/target/classes/static/lib/jquery-1.9.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/src/main/java/com/spring/project/web/core/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/src/main/java/com/spring/project/web/core/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/target/classes/com/spring/project/web/core/mapper/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/target/classes/com/spring/project/web/core/mapper/UserInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/target/classes/com/spring/project/web/core/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/target/classes/com/spring/project/web/core/service/UserInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/target/classes/com/spring/project/web/core/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-core/target/classes/com/spring/project/web/core/service/impl/UserInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="95d3a568-69ed-462c-8fe5-1001c87d3589" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../project-demo-other/target/" />
@@ -57,63 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/TypeEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/EncryptJsApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../project-demo-other/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/com/sun/org/apache/xml/internal/security/utils/Base64.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="107">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -134,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../project-demo-io/src/main/java/com/spring/project/demo/io/FileChangeWatchService.java" />
         <option value="$PROJECT_DIR$/../project-demo-io/src/main/java/com/spring/project/demo/io/Application.java" />
         <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" />
@@ -144,6 +62,7 @@
         <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App.java" />
         <option value="$PROJECT_DIR$/../project-demo-other/pom.xml" />
         <option value="$PROJECT_DIR$/../project-demo-io/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -176,10 +95,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="428" />
-    <option name="y" value="28" />
-    <option name="width" value="1487" />
-    <option name="height" value="954" />
+    <option name="x" value="59" />
+    <option name="y" value="37" />
+    <option name="width" value="1689" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,68 +106,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo-other" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="project-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568085687942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594978341405" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -335,17 +212,18 @@
       <workItem from="1567998497211" duration="1243000" />
       <workItem from="1568085416406" duration="191000" />
       <workItem from="1568085645834" duration="77000" />
+      <workItem from="1594978250138" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6259000" />
+    <option name="totallyTimeSpent" value="6364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,13 +258,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-demo-io/src/main/java/com/spring/project/demo/io/FileChangeWatchService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -402,6 +273,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../project-demo-other/src/test/java/com/spring/project/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-io/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/TypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -420,10 +298,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-demo-io/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/EncryptJsApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="253">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,20 +322,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/EncryptJsApp.java">
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-6">
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-demo-other/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="107">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

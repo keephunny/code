@@ -1,151 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1798f903-3728-4e98-aa33-d21d873aa452" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../project-utils/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/encrypt/JsEncryptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/MailBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/httpclient/HttpClientsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/httpclient/HttpHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/httpclient/HttpRequestHeadDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/BooleanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/CharSetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/CharUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/DateTimeDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/DateTimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/LocaleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/ObjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/RegexUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/SystemUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/main/java/com/project/utils/lang/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../project-utils/src/test/java/com/project/utils/lang/StringUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/api/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/api/controller/TablesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorControllerCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorEntityCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorMapperCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorMapperXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorServiceCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/Generate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/GeneratorEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/JavaDataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/JavaTypeResolverDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/ProjectEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/ProjectModuleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/TableColumnEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/TableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/utils/TableIndexEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/application-prd.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/assembly/component.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/assembly/dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/assembly/prd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/assembly/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/bin/service.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/bin/startup.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/dozer/dozer-mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/ehcache-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback/logback-prd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/static/jquery-1.9.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/Controller.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/Service.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/UserInfo.java.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/UserInfoBaseMapper.xml.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/UserInfoBaseMapper.xml.template2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/templates/pom.xml.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-code/src/main/java/com/spring/project/generator/code/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/entity/Columns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/entity/Tables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/mapper/ColumnsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/mapper/TablesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/service/ColumnsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/service/TablesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/service/impl/ColumnsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/java/com/spring/project/generator/core/service/impl/TablesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/resources/mapper/base/ColumnsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-core/src/main/resources/mapper/base/TablesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebConfigBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/mapper/base/UserInfoBaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/mapper/sql/UserInfoSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/service/UserInfoBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/service/impl/UserInfoBaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-core-base/src/main/resources/mapper/UserInfoBaseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/UserInfoExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-web-utils/src/main/java/com/spring/project/web/utils/ExcelExportMyStylerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/advice/GlobalControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/advice/GlobalControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/FilterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/AppContorller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/filter/XSSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/filter/XSSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfoParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/QueryPageVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/QueryPageVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/UserInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/UserInfoVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/component.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/component.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/entity/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/mapper/BaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/mapper/UserInfoBaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/service/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/service/UserInfoBaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/service/impl/UserInfoBaseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core-base/src/main/resources/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/entity/base/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/query/QueryPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/query/UserInfoQueryPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/mapper/BaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/BaseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/RoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/base/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-core/src/test/java/com/spring/project/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-web-utils/src/main/java/com/spring/project/web/utils/lang/DateTimeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-utils/src/main/java/com/spring/project/web/utils/lang/DateTimeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/project/App.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1798f903-3728-4e98-aa33-d21d873aa452" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../project-web-api/target/" />
@@ -201,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="158">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -219,11 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfoParam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/validator/ParamLength.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -403,6 +277,32 @@
               <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-web-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-web-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-web-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-web-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-web-core-base" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -420,7 +320,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594977973623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594978098767" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-project1.0/project-parent/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -645,12 +545,12 @@
       <workItem from="1594793110721" duration="1779000" />
       <workItem from="1594797667170" duration="3812000" />
       <workItem from="1594861677181" duration="1215000" />
-      <workItem from="1594977860201" duration="78000" />
+      <workItem from="1594977860201" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304911000" />
+    <option name="totallyTimeSpent" value="305201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -734,13 +634,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../project-web-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-web-core-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -868,13 +761,6 @@
             <element signature="e#1357#1358#0" expanded="true" />
             <element signature="e#1408#1409#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/validator/ParamLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1054,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/FilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1072,6 +951,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfoParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/validator/ParamLength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
