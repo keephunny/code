@@ -1,6 +1,6 @@
 /**
- * gsafety, open source software quality management tool.
- * Copyright (C) 2008-2019 gsafety
+ * open source software quality management tool.
+ * Copyright (C) 2008-2019
  * mailto:contact
  */
 package com.spring.project.web.api.config;

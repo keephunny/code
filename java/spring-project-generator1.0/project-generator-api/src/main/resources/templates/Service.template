@@ -1,0 +1,26 @@
+/*
+ * Copyright (c) ${date.year}.
+ */
+package ${packageServiceName};
+
+import com.github.pagehelper.PageInfo;
+import com.spring.project.web.core.entity.base.${ClassName};
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+/**
+ * ${classCommit}
+ *
+ * @author ${author}
+ * 创建时间 ${date} ${time}
+ */
+@Service("${className}")
+public interface ${ClassName}Service extends ${ClassName}BaseService {
+
+    long count();
+
+
+    List<${ClassName}> queryByName();
+    PageInfo<${ClassName}> queryPageByName();
+}

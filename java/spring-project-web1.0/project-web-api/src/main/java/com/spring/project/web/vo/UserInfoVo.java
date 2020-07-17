@@ -20,6 +20,11 @@ public class UserInfoVo {
     public UserInfoVo() {
     }
 
+    public UserInfoVo(Integer id, String userName) {
+        this.id = id;
+        this.userName = userName;
+    }
+
     public UserInfoVo(Integer id, String userName, String userPwd, Date insertTime) {
         this.id = id;
         this.userName = userName;
@@ -57,5 +62,15 @@ public class UserInfoVo {
 
     public void setInsertTime(Date insertTime) {
         this.insertTime = insertTime;
+    }
+
+    @Override
+    public String toString() {
+        return "UserInfoVo{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", userPwd='" + userPwd + '\'' +
+                ", insertTime=" + insertTime +
+                '}';
     }
 }

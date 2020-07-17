@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.project.web.core.mapper.base.UserInfoBaseMapper">
+    <resultMap id="BaseResultMap" type="userInfo">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="user_pwd" jdbcType="VARCHAR" property="userPwd"/>
+        <result column="real_name" jdbcType="VARCHAR" property="realName"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
+        <result column="department_id" jdbcType="INTEGER" property="departmentId"/>
+        <result column="position" jdbcType="VARCHAR" property="position"/>
+        <result column="sort_no" jdbcType="INTEGER" property="sortNo"/>
+        <result column="status" jdbcType="BIT" property="status"/>
+        <result column="not_delete" jdbcType="BIT" property="notDelete"/>
+        <result column="role_id" jdbcType="INTEGER" property="roleId"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="update_user" jdbcType="VARCHAR" property="updateUser"/>
+    </resultMap>
+
+    <!--通用全表查询列-->
+    <sql id="sqlColumn">
+      id,user_name,user_pwd,real_name,phone,department_id,position,not_delete,status,role_id,sort_no,create_time,create_user,update_time,update_user
+    </sql>
+
+    <select id="queryAll" resultMap="BaseResultMap">
+        select
+        <include refid="sqlColumn"/>
+        from user_info
+    </select>
+
+    <select id="queryPage" resultMap="BaseResultMap">
+        select
+        <include refid="sqlColumn"/>
+        from user_info
+    </select>
+
+    <select id="queryByExample" resultMap="BaseResultMap">
+        select
+        <include refid="sqlColumn"/>
+        from user_info
+        <where>
+            <if test="id!=null">
+                and id=#{id}
+            </if>
+            <if test="userName!=null and userName!=''">
+                and user_name=#{userName}
+            </if>
+            <if test="userPwd!=null and userPwd!=''">
+                and user_pwd=#{userPwd}
+            </if>
+            <if test="realName!=null and realName!=''">
+                and real_name=#{realName}
+            </if>
+
+
+        </where>
+    </select>
+
+
+    <!--查询总行数-->
+    <select id="queryCount" resultType="long">
+        select count(id) from user_info
+    </select>
+
+
+    <select id="getById" resultMap="BaseResultMap">
+        select
+        <include refid="sqlColumn"/>
+        from user_info where id=#{id}
+    </select>
+
+    <!--根据key删除记录-->
+    <delete id="deleteByKey" parameterType="int">
+        delete
+        from user_info where id=#{id}
+    </delete>
+
+    <!--根据key集合批量删除记录-->
+    <delete id="deleteByKeys" parameterType="int">
+        delete from user_info where id in
+        <foreach collection="array" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+
+    <!--插入-->
+    <insert id="insert" parameterType="userInfo" useGeneratedKeys="true" keyProperty="id">
+        insert into user_info (user_name, user_pwd, real_name,
+        phone, department_id, position,
+        sort_no, status, not_delete,
+        role_id, create_time, create_user,
+        update_time, update_user
+        )
+        values (#{userName,jdbcType=VARCHAR}, #{userPwd,jdbcType=VARCHAR}, #{realName,jdbcType=VARCHAR},
+        #{phone,jdbcType=VARCHAR}, #{departmentId,jdbcType=INTEGER}, #{position,jdbcType=VARCHAR},
+        #{sortNo,jdbcType=INTEGER}, #{status,jdbcType=BIT}, #{notDelete,jdbcType=BIT},
+        #{roleId,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{createUser,jdbcType=VARCHAR},
+        #{updateTime,jdbcType=TIMESTAMP}, #{updateUser,jdbcType=VARCHAR}
+        )
+    </insert>
+    <!--批量插入-->
+    <insert id="insertBatch" parameterType="java.util.List">
+        insert into user_info (user_name, user_pwd, real_name,
+        phone, department_id, position,
+        sort_no, status, not_delete,
+        role_id, create_time, create_user,
+        update_time, update_user )
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.userName,jdbcType=VARCHAR}, #{item.userPwd,jdbcType=VARCHAR}, #{item.realName,jdbcType=VARCHAR},
+            #{item.phone,jdbcType=VARCHAR}, #{item.departmentId,jdbcType=INTEGER}, #{item.position,jdbcType=VARCHAR},
+            #{item.sortNo,jdbcType=INTEGER}, #{item.status,jdbcType=BIT}, #{item.notDelete,jdbcType=BIT},
+            #{item.roleId,jdbcType=INTEGER}, #{item.createTime,jdbcType=TIMESTAMP}, #{item.createUser,jdbcType=VARCHAR},
+            #{item.updateTime,jdbcType=TIMESTAMP}, #{item.updateUser,jdbcType=VARCHAR}
+            )
+        </foreach>
+    </insert>
+
+    <update id="updateByKey" parameterType="userInfo">
+        update user_info
+        set user_name = #{userName,jdbcType=VARCHAR},
+        user_pwd = #{userPwd,jdbcType=VARCHAR},
+        real_name = #{realName,jdbcType=VARCHAR},
+        phone = #{phone,jdbcType=VARCHAR},
+        department_id = #{departmentId,jdbcType=INTEGER},
+        position = #{position,jdbcType=VARCHAR},
+        sort_no = #{sortNo,jdbcType=INTEGER},
+        status = #{status,jdbcType=BIT},
+        not_delete = #{notDelete,jdbcType=BIT},
+        role_id = #{roleId,jdbcType=INTEGER},
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+        create_user = #{createUser,jdbcType=VARCHAR},
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+        update_user = #{updateUser,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

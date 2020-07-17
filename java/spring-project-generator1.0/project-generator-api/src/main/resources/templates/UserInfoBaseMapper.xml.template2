@@ -1,0 +1,4 @@
+
+    <sql id="sqlColumn">
+      ${sqlColumn}
+    </sql>

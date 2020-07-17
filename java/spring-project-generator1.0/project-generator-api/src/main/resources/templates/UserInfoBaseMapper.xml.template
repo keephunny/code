@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="${packageMapperName}.${ClassName}Mapper">
+    <resultMap id="BaseResultMap2" type="${className}">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="user_pwd" jdbcType="VARCHAR" property="userPwd"/>
+        <result column="real_name" jdbcType="VARCHAR" property="realName"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
+        <result column="department_id" jdbcType="INTEGER" property="departmentId"/>
+        <result column="position" jdbcType="VARCHAR" property="position"/>
+        <result column="sort_no" jdbcType="INTEGER" property="sortNo"/>
+        <result column="status" jdbcType="BIT" property="status"/>
+        <result column="not_delete" jdbcType="BIT" property="notDelete"/>
+        <result column="role_id" jdbcType="INTEGER" property="roleId"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="update_user" jdbcType="VARCHAR" property="updateUser"/>
+    </resultMap>
+
+    <resultMap id="BaseResultMap" type="${className}">
+    ${resultMap}
+    </resultMap>
+
+
+    <!--通用全表查询列-->
+    <sql id="sqlColumn">
+      ${sqlColumn}
+    </sql>
+
+    <select id="queryAll" resultMap="BaseResultMap">
+        SELECT
+        ${sqlColumn}
+        FROM ${tableName}
+    </select>
+
+    <select id="queryPage" resultMap="BaseResultMap">
+        SELECT
+        ${sqlColumn}
+        FROM ${tableName}
+    </select>
+
+    <select id="queryByExample" resultMap="BaseResultMap">
+        select
+        ${sqlColumn}
+        from ${tableName}
+        <where>
+        ${queryByExampleColumn}
+        </where>
+    </select>
+
+
+    <!--查询总行数-->
+    <select id="queryCount" resultType="long">
+        select count(${keyColumn}) from ${tableName}
+    </select>
+
+
+    <select id="getByKey" resultMap="BaseResultMap">
+        select
+        ${sqlColumn}
+        from ${tableName}
+        where ${keyColumn}=#{${keyPropertyNew}}
+    </select>
+
+    ${getByUnique}
+
+    <!--根据key删除记录-->
+    <delete id="deleteByKey" parameterType="int">
+        delete
+        from ${tableName}
+        where ${keyColumn}=#{${keyPropertyNew}}
+    </delete>
+
+    <!--根据key集合批量删除记录-->
+    <delete id="deleteByKeys" parameterType="int">
+        delete from
+        ${tableName}
+        where ${keyColumn} in
+        <foreach collection="array" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+
+    <!--插入-->
+    <insert id="insert" parameterType="${className}" useGeneratedKeys="true" keyProperty="${keyColumn}">
+        insert into
+        ${tableName}
+        (
+        ${insertColumns}
+        )
+        values (
+        ${insertColumnsData}
+        )
+    </insert>
+    <!--批量插入-->
+    <insert id="insertBatch" parameterType="java.util.List">
+        insert into ${tableName}
+        (
+        ${insertColumns}
+        )
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.userName,jdbcType=VARCHAR}, #{item.userPwd,jdbcType=VARCHAR}, #{item.realName,jdbcType=VARCHAR},
+            #{item.phone,jdbcType=VARCHAR}, #{item.departmentId,jdbcType=INTEGER}, #{item.position,jdbcType=VARCHAR},
+            #{item.sortNo,jdbcType=INTEGER}, #{item.status,jdbcType=BIT}, #{item.notDelete,jdbcType=BIT},
+            #{item.roleId,jdbcType=INTEGER}, #{item.createTime,jdbcType=TIMESTAMP}, #{item.createUser,jdbcType=VARCHAR},
+            #{item.updateTime,jdbcType=TIMESTAMP}, #{item.updateUser,jdbcType=VARCHAR}
+            )
+        </foreach>
+    </insert>
+
+    <update id="updateByKey" parameterType="${className}">
+        update ${tableName}
+        set
+        ${updateColumn}
+        where ${keyColumn} = #{id,jdbcType=INTEGER}
+    </update>
+
+${queryByColumn}
+${countByColumn}
+</mapper>

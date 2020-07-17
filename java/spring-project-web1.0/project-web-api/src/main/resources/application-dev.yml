@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8081
   #session有效期 分钟
   session-timeout: 30
 spring:
@@ -59,10 +59,21 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
 
+spring.mvc.date-format: yyyy-MM-dd HH:mm:ss
 # mybatis配置
 mybatis:
-  typeAliasesPackage: com.spring.project.web.core.mapper
-  mapperLocations: classpath:mapper/**/*.xml
+  typeAliasesPackage: com.spring.project.web.core
+  mapperLocations: classpath*:mapper/**/*.xml
+
+swagger:
+  show: true
+
+#pagehelper
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 
 publickKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJu0hBppL0OGchPs8t5p60pDDFpnuOMBU1XbPvdhkIwBj2iC0xJUlK3+BMPk4kwXS7QLkslfhK39gz1H7Hr6owsCAwEAAQ==
 #禁用密码验证

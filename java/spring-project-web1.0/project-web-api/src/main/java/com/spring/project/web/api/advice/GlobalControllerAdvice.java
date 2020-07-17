@@ -20,6 +20,7 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.ConstraintViolationException;
 
 /**
  * 全局异常捕获，避免异常信息抛到前端。
@@ -106,6 +107,13 @@ public class GlobalControllerAdvice {
         String msg = "参数缺少";
         return returResult(HttpStatus.BAD_REQUEST.value(), msg, e.getMessage());
     }
+    @ExceptionHandler(ConstraintViolationException.class)
+    @ResponseBody
+    public RespResult handleConstraintViolationException(HttpServletRequest request, ConstraintViolationException e) {
+        logger.error(request.getRequestURI() + " " + e.getMessage(), e);
+        String msg = "参数缺少";
+        return returResult(HttpStatus.BAD_REQUEST.value(), msg, e.getMessage());
+    }
 
 
 
@@ -123,6 +131,9 @@ public class GlobalControllerAdvice {
         String msg = "请求地址不存在";
         return returResult(HttpStatus.NOT_FOUND.value(), msg, e.getMessage());
     }
+
+
+
 
     /**
      * 包装RespResult输出

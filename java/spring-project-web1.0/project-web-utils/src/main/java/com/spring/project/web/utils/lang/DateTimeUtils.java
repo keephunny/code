@@ -10,6 +10,7 @@ import java.util.GregorianCalendar;
  *
  * @author 汪强
  */
+
 public class DateTimeUtils {
 
     //#region 日期时间格式
@@ -717,6 +718,7 @@ public class DateTimeUtils {
         calendar.set(Calendar.HOUR_OF_DAY, 00);
         calendar.set(Calendar.MINUTE, 00);
         calendar.set(Calendar.SECOND, 00);
+        calendar.set(Calendar.MILLISECOND, 00);
         return calendar.getTime();
     }
 
@@ -733,6 +735,7 @@ public class DateTimeUtils {
         calendar.set(Calendar.HOUR_OF_DAY, 00);
         calendar.set(Calendar.MINUTE, 00);
         calendar.set(Calendar.SECOND, 00);
+        calendar.set(Calendar.MILLISECOND, 00);
         return calendar.getTime();
     }
 
@@ -750,6 +753,7 @@ public class DateTimeUtils {
         calendar.set(Calendar.HOUR_OF_DAY, 00);
         calendar.set(Calendar.MINUTE, 00);
         calendar.set(Calendar.SECOND, 00);
+        calendar.set(Calendar.MILLISECOND, 00);
         return calendar.getTime();
     }
 
@@ -766,6 +770,7 @@ public class DateTimeUtils {
         calendar.set(Calendar.HOUR_OF_DAY, 00);
         calendar.set(Calendar.MINUTE, 00);
         calendar.set(Calendar.SECOND, 00);
+        calendar.set(Calendar.MILLISECOND, 00);
         return calendar.getTime();
     }
 

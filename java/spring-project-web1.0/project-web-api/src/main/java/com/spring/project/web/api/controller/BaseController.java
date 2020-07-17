@@ -4,7 +4,7 @@
 package com.spring.project.web.api.controller;
 
 
-import com.spring.project.web.utils.lang.DateTimeUtils;
+import com.project.utils.lang.DateTimeUtils;
 import com.spring.project.web.vo.RespResult;
 import org.dozer.DozerBeanMapper;
 import org.slf4j.Logger;
@@ -171,7 +171,7 @@ public class BaseController {
      * @param id id
      * @return 操作结果
      */
-    protected RespResult checkIDs(Integer[] id) {
+    protected RespResult checkIDs(int[] id) {
         RespResult respResult = new RespResult();
         if (id == null || id.length <= 0) {
             respResult.setCode(BAD_REQUEST_CODE, "参数错误,id不能为空");

@@ -8,19 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="project-web-api" />
         <module name="project-web-core" />
+        <module name="project-web-core-base" />
         <module name="project-web-pojo" />
-        <module name="project-web-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="project-web-core-base" target="1.8" />
+      <module name="project-web-call" target="1.7" />
+      <module name="project-web-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="project-web-api" options="-parameters" />
       <module name="project-web-core" options="-parameters" />
-      <module name="project-web-core-base" options="-parameters" />
+      <module name="project-web-core-base" options="" />
       <module name="project-web-pojo" options="-parameters" />
       <module name="project-web-utils" options="-parameters" />
     </option>

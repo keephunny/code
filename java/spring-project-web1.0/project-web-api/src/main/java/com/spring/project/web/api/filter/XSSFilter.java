@@ -1,8 +1,6 @@
 package com.spring.project.web.api.filter;
 
-import com.alibaba.druid.support.spring.stat.annotation.Stat;
 import com.spring.project.web.api.config.FilterXssConfigEntity;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.*;

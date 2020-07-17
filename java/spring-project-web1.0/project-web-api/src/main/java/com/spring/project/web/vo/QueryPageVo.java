@@ -1,6 +1,7 @@
 package com.spring.project.web.vo;
 
 import com.spring.project.web.api.validator.QueryKey;
+import io.swagger.annotations.ApiModelProperty;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.Max;
@@ -14,6 +15,7 @@ public class QueryPageVo {
     /**
      * 分页查询起页
      */
+    @ApiModelProperty(value = "起页", required = true)
     @NotNull(message = "起始页不允许为空")
     @Min(value = 0)
     private Integer start = 0;
@@ -21,6 +23,7 @@ public class QueryPageVo {
     /**
      * 分页查询止页
      */
+    @ApiModelProperty(value = "始页", required = true)
     @Min(value = 0, message = "start不允许小于0")
     @Max(value = 1000, message = "length不允许超过1000")
     private Integer length = 20;
@@ -28,7 +31,7 @@ public class QueryPageVo {
     /**
      * 开始时间
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+//    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Past(message = "开始时间不允超当前时间")
     private Date beginDate;
 
@@ -36,7 +39,7 @@ public class QueryPageVo {
      * 截止时间
      * 开始时间不能大于结束时 结束时间为null 例外
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+//    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Past(message = "结束时间不允超当前时间")
     private Date endDate;
 
@@ -90,7 +93,7 @@ public class QueryPageVo {
      *
      * @param beginDate 开始时间
      */
-    public void setBeginDate(Date beginDate) throws ParseException {
+    public void setBeginDate(Date beginDate)  {
         this.beginDate = beginDate;
     }
 

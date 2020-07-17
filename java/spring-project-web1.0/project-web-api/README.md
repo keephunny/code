@@ -19,7 +19,7 @@ null
 包装类型
 集合
 
-
+小数格式化 不要全局设置，小数位0也保留
 ### 统一异常处理
 处理404异常 区分静态资源请求
   spring.mvc:
@@ -49,6 +49,13 @@ null
             return responseVo;
         }
     }
+    
+    
+    
+    @Validated
+    public class TestController extends BaseController 
+    单参数校验，需要在类头部添加@Validated
+    public String test3(@NotBlank  String name) 
 ```
 controller logger继承自base
 
