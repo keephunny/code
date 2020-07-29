@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.0.RELEASE</version>
+  </parent>
+
+  <groupId>com.alarm.monitor</groupId>
+  <artifactId>monitor-led</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>monitor-led</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.38</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.xiaoymin</groupId>
+      <artifactId>knife4j-spring-boot-starter</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+
+
+    <!-- begin 日志相关-->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+    </dependency>
+    <!-- end 日志相关-->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <!--begin springboot相关-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-core</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-annotations</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.hibernate.validator</groupId>
+          <artifactId>hibernate-validator</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.xiaoymin</groupId>
+      <artifactId>knife4j-spring-boot-starter</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bidib.jbidib.org.qbang.rxtx</groupId>
+      <artifactId>rxtxcomm</artifactId>
+      <version>2.2</version>
+    </dependency>
+
+  </dependencies>
+
+
+  <build>
+    <plugins>
+      <!--排除resources文件夹-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <configuration>
+          <excludes>
+            <!--注意这玩意从编译结果目录开始算目录结构-->
+            <exclude>/**/*.xml</exclude>
+            <exclude>logback/**</exclude>
+            <exclude>assembly/**</exclude>
+            <exclude>bin/**</exclude>
+            <exclude>assembly/**</exclude>
+            <exclude>dozer/**</exclude>
+            <exclude>logback/**</exclude>
+            <exclude>static/**</exclude>
+            <exclude>templates/**</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+
+      <!--打包指定jdk版本-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <encoding>${project.build.sourceEncoding}</encoding>
+        </configuration>
+      </plugin>
+      <!-- 1.生成Javadoc-->
+      <!--<plugin>-->
+      <!--<groupId>org.apache.maven.plugins</groupId>-->
+      <!--<artifactId>maven-javadoc-plugin</artifactId>-->
+      <!--</plugin>-->
+      <!-- 2.打包-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.3</version>
+          <executions>
+              <execution>
+                  <id>assemble</id>
+                  <goals>
+                      <goal>single</goal>
+                  </goals>
+                  <phase>package</phase>
+              </execution>
+          </executions>
+          <configuration>
+              <appendAssemblyId>false</appendAssemblyId>
+              <attach>false</attach>
+              <!-- maven assembly插件需要一个描述文件 来告诉插件包的结构以及打包所需的文件来自哪里 -->
+              <descriptors>
+                  <descriptor>${basedir}/src/main/resources/assembly/${profiles.active}.xml</descriptor>
+              </descriptors>
+              <finalName>${project.artifactId}-${project.version}</finalName>
+              <outputDirectory>${project.build.directory}</outputDirectory>
+          </configuration>
+      </plugin>
+    </plugins>
+
+  </build>
+
+
+  <!-- 环境配置 -->
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <properties>
+        <profiles.active>dev</profiles.active>
+        <maven.test.skip>true</maven.test.skip>
+        <name>env</name>
+        <value>dev</value>
+      </properties>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+    <profile>
+      <id>test</id>
+      <properties>
+        <profiles.active>test</profiles.active>
+        <maven.test.skip>true</maven.test.skip>
+        <name>env</name>
+        <value>test</value>
+      </properties>
+    </profile>
+    <profile>
+      <id>prd</id>
+      <properties>
+        <profiles.active>prd</profiles.active>
+        <maven.test.skip>true</maven.test.skip>
+        <scope.jar>provided</scope.jar>
+      </properties>
+    </profile>
+
+
+    <!--sonarqube相关配置 mvn sonar:sonar-->
+    <profile>
+      <id>sonar</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <!--本地开发环境-->
+        <sonar.host.url>http://192.168.1.100:9000/sonar</sonar.host.url>
+        <sonar.login>xxxx</sonar.login>
+        <sonar.projectName>xxx项目</sonar.projectName>
+      </properties>
+    </profile>
+  </profiles>
+</project>
