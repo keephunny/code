@@ -1,6 +1,6 @@
 #!/bin/bash 
 # chkconfig: 2345 99  90
-# description: proj-tongling-web
+# description: monitor-led
 # java命令安装路径进行修改  因为开机启动找不到JAVA=$(which java)
 JAVA=/usr/local/java/bin/java
 #JAVA=$(which java)
@@ -32,8 +32,8 @@ funStart(){
 
     cd $bin_abs_path
 
-    #$JAVA $JAVA_OPTS  -classpath .:$CLASSPATH com.spring.project.web.api.Application 1>>$base/logs/start.log 2>&1 & echo $! > $base/bin/app.pid
-    /usr/bin/nohup  $JAVA $JAVA_OPTS  -classpath .:$CLASSPATH com.spring.project.web.api.Application >/dev/null  2>$base/bin/err.log & echo $! > $base/bin/app.pid
+    #$JAVA $JAVA_OPTS  -classpath .:$CLASSPATH com.alarm.monitor.Application 1>>$base/logs/start.log 2>&1 & echo $! > $base/bin/app.pid
+    /usr/bin/nohup  $JAVA $JAVA_OPTS  -classpath .:$CLASSPATH com.alarm.monitor.Application >/dev/null  2>$base/bin/err.log & echo $! > $base/bin/app.pid
 
     PIDS=$(cat "$base/bin/app.pid")
     echo "PID: $PIDS"

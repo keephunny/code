@@ -20,12 +20,30 @@
 SerialPortDemo-master  小串口调试工具 
 UsartTools-master.rar
 
+### 添加串口jar
+```
+将
+RXTXcomm.jar
+rxtxParallel.dll
+rxtxSerial.dll
+添加到
+ \Java\jdk1.8.0_211\jre\lib\ext
+ 区分32和64位
+ 
+ 复制rxtxSerial.dll到“%JAVA_HOME%\jre\bin”下
+ 复制RXTXcomm.jar到“%JAVA_HOME%\jre\lib\ext”和“%JAVA_HOME%\lib”下
+```
+[mfz-rxtx-2.2-20081207-win-x64.zip](./resources/mfz-rxtx-2.2-20081207-win-x64.zip)
+[mfz-rxtx-2.2-20081207-win-x86.zip](./resources/mfz-rxtx-2.2-20081207-win-x86.zip)
+
+.zip
 ### 指令
 ```
 单层USB灯软件协议
 一、串口通信定义
 	串口波特率：9600   1位起始位、8位数据位 、1位停止位 、偶校验
 	通讯接口：USB
+
 
  指令内容：
 1、   01 05 00 00 ff 00 8c 3a      全灭
