@@ -1,0 +1,34 @@
+2020-07-29 14:53:51.564 [http-nio-8081-exec-6] [31m[WARN][0;39m o.s.w.s.m.s.DefaultHandlerExceptionResolver 194 Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2020-07-29 14:53:56.204 [http-nio-8081-exec-1] [34m[INFO][0;39m c.a.m.controller.AlarmLedController 186 串口已打开
+2020-07-29 14:54:07.738 [http-nio-8081-exec-1] [34m[INFO][0;39m c.a.m.controller.AlarmLedController 75 报警中止
+2020-07-29 14:54:07.836 [http-nio-8081-exec-1] [34m[INFO][0;39m c.a.m.controller.AlarmLedController 229 串口已关闭
+2020-07-29 15:11:59.500 [main] [34m[INFO][0;39m com.alarm.monitor.Application 18 程序启动
+2020-07-29 15:12:01.573 [main] [34m[INFO][0;39m com.alarm.monitor.Application 50 Starting Application on SC-201905172112 with PID 7320 (D:\project\monitor-led\target\classes started by Administrator in D:\project\monitor-led)
+2020-07-29 15:12:01.574 [main] [34m[INFO][0;39m com.alarm.monitor.Application 679 The following profiles are active: dev
+2020-07-29 15:12:04.568 [main] [34m[INFO][0;39m o.s.b.w.e.tomcat.TomcatWebServer 90 Tomcat initialized with port(s): 8081 (http)
+2020-07-29 15:12:04.608 [main] [34m[INFO][0;39m o.a.catalina.core.StandardService 173 Starting service [Tomcat]
+2020-07-29 15:12:04.609 [main] [34m[INFO][0;39m o.a.catalina.core.StandardEngine 173 Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-29 15:12:04.623 [main] [34m[INFO][0;39m o.a.c.core.AprLifecycleListener 173 The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\project\monitor-led\lib]
+2020-07-29 15:12:04.925 [main] [34m[INFO][0;39m o.a.c.c.C.[Tomcat].[localhost].[/] 173 Initializing Spring embedded WebApplicationContext
+2020-07-29 15:12:04.926 [main] [34m[INFO][0;39m o.s.web.context.ContextLoader 285 Root WebApplicationContext: initialization completed in 3042 ms
+2020-07-29 15:12:04.991 [main] [34m[INFO][0;39m o.s.b.w.s.ServletRegistrationBean 186 Servlet dispatcherServlet mapped to [/]
+2020-07-29 15:12:05.002 [main] [34m[INFO][0;39m o.s.b.w.s.FilterRegistrationBean 248 Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-29 15:12:05.003 [main] [34m[INFO][0;39m o.s.b.w.s.FilterRegistrationBean 248 Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-29 15:12:05.003 [main] [34m[INFO][0;39m o.s.b.w.s.FilterRegistrationBean 248 Mapping filter: 'formContentFilter' to: [/*]
+2020-07-29 15:12:05.003 [main] [34m[INFO][0;39m o.s.b.w.s.FilterRegistrationBean 248 Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-29 15:12:05.004 [main] [34m[INFO][0;39m o.s.b.w.s.FilterRegistrationBean 248 Mapping filter: 'securityBasicAuthFilter' to: [/*]
+2020-07-29 15:12:05.004 [main] [34m[INFO][0;39m o.s.b.w.s.FilterRegistrationBean 248 Mapping filter: 'productionSecurityFilter' to: [/*]
+2020-07-29 15:12:05.671 [main] [34m[INFO][0;39m s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-29 15:12:05.855 [main] [34m[INFO][0;39m o.s.s.c.ThreadPoolTaskExecutor 171 Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-29 15:12:06.298 [main] [34m[INFO][0;39m o.s.b.a.w.s.WelcomePageHandlerMapping 56 Adding welcome page: class path resource [static/index.html]
+2020-07-29 15:12:06.410 [main] [34m[INFO][0;39m s.d.s.w.p.DocumentationPluginsBootstrapper 160 Context refreshed
+2020-07-29 15:12:06.446 [main] [34m[INFO][0;39m s.d.s.w.p.DocumentationPluginsBootstrapper 163 Found 1 custom documentation plugin(s)
+2020-07-29 15:12:06.496 [main] [34m[INFO][0;39m s.d.s.w.s.ApiListingReferenceScanner 41 Scanning for api listing references
+2020-07-29 15:12:06.766 [main] [34m[INFO][0;39m o.s.b.w.e.tomcat.TomcatWebServer 204 Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-29 15:12:06.772 [main] [34m[INFO][0;39m com.alarm.monitor.Application 59 Started Application in 6.942 seconds (JVM running for 9.715)
+2020-07-29 15:47:59.144 [http-nio-8081-exec-1] [34m[INFO][0;39m o.a.c.c.C.[Tomcat].[localhost].[/] 173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-29 15:47:59.145 [http-nio-8081-exec-1] [34m[INFO][0;39m o.s.web.servlet.DispatcherServlet 521 Initializing Servlet 'dispatcherServlet'
+2020-07-29 15:47:59.161 [http-nio-8081-exec-1] [34m[INFO][0;39m o.s.web.servlet.DispatcherServlet 543 Completed initialization in 16 ms
+2020-07-29 15:47:59.358 [http-nio-8081-exec-1] [34m[INFO][0;39m c.a.m.controller.AlarmLedController 186 串口已打开
+2020-07-29 15:48:08.698 [http-nio-8081-exec-1] [34m[INFO][0;39m c.a.m.controller.AlarmLedController 75 报警中止
+2020-07-29 15:48:08.789 [http-nio-8081-exec-1] [34m[INFO][0;39m c.a.m.controller.AlarmLedController 229 串口已关闭
