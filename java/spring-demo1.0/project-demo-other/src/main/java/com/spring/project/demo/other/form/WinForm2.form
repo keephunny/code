@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.spring.project.demo.other.form.WinForm2">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="81e5f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="af4a" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label1"/>
+            </properties>
+          </component>
+          <component id="b08fe" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label2"/>
+            </properties>
+          </component>
+          <component id="d8305" class="javax.swing.JButton" binding="启动Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="启动"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="dc474" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="18cb1" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

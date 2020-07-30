@@ -1,6 +1,6 @@
 #!/bin/bash 
 # chkconfig: 2345 99  90
-# description: proj-tongling-web
+# description: proj-web
 # java命令安装路径进行修改  因为开机启动找不到JAVA=$(which java)
 JAVA=/usr/local/java/bin/java
 #JAVA=$(which java)

@@ -47,7 +47,7 @@
         </encoder>
     </appender>
 
-    <!--<logger name="com.gscitylifeline.proj.tongling.web.core" level="debug"></logger>-->
+    <!--<logger name="com.proj.web.core" level="debug"></logger>-->
 
     <!-- logback为java中的包 -->
     <!--<logger name="logback"/>-->

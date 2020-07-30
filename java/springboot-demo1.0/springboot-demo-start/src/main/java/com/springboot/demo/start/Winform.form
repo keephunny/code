@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.springboot.demo.start.Winform">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="517" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4de7b" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3ebe" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <requestFocusEnabled value="true"/>
+              <text value=" 启动时间："/>
+            </properties>
+          </component>
+          <component id="2a234" class="javax.swing.JLabel" binding="labelStartTime">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+            </constraints>
+            <properties>
+              <foreground color="-15352321"/>
+              <text value="2020-01-01"/>
+            </properties>
+          </component>
+          <component id="ef1bf" class="javax.swing.JCheckBox" binding="checkBoxWrap">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <selected value="false"/>
+              <text value="自动换行"/>
+            </properties>
+          </component>
+          <grid id="a4638" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9d9cc" class="javax.swing.JButton" binding="buttonStart">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="启动服务"/>
+                </properties>
+              </component>
+              <component id="1e390" class="javax.swing.JButton" binding="buttonStop">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <text value="停止服务"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="f1f4a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <iconTextGap value="4"/>
+              <text value="安全运行："/>
+            </properties>
+          </component>
+          <component id="f0950" class="javax.swing.JLabel" binding="labelRunTime">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+            </constraints>
+            <properties>
+              <foreground color="-15352321"/>
+              <text value="10天23小时"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="e7a72">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f5ab3" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+              <margin top="5" left="5" bottom="5" right="5"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

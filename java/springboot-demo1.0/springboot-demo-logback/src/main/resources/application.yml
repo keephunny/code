@@ -1,0 +1,4 @@
+server:
+  port: 8088
+  #session有效期 分钟
+  session-timeout: 30
