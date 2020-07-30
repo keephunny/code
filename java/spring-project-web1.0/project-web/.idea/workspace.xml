@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1798f903-3728-4e98-aa33-d21d873aa452" name="Default Changelist" comment="" />
+    <list default="true" id="1798f903-3728-4e98-aa33-d21d873aa452" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/form/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/lib/miglayout-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/lib/miglayout-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/lib/miglayout-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/lib/miglayout-swing-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/lib/miglayout-swing-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo/lib/miglayout-swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/start.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/stop.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/win_start.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/logback/ApplicationLogback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/logback/job/JobProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/main/java/com/springboot/demo/start/Winform.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/main/java/com/springboot/demo/start/Winform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/ApplicationSwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/TestJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/WinForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/job/JobProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LoggerMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LoggerQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-demo1.0/project-demo-other/src/main/java/com/spring/project/demo/other/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/java/com/spring/project/generator/code/GeneratorProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/bin/service.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/bin/service.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback/logback-prd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback/logback-prd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-generator1.0/project-generator-api/src/main/resources/logback/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-prd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-prd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/src/main/java/com/springboot/demo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/src/main/java/com/springboot/demo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/src/test/java/com/springboot/demo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/src/test/java/com/springboot/demo/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../project-web-api/target/" />
@@ -31,87 +91,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
-              <folding>
-                <element signature="method#test3#0;class#TestController#0" />
-                <element signature="method#test#0;class#TestController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/FilterConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfoParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/validator/ParamLength.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebConfigBeans.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,12 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.spring.project.web.core.mapper</find>
-      <find>userInfoService</find>
-      <find>com.spring.project.web.core.mapper.UserInfoMapper</find>
-      <find>com.spring.project.web.core.mapper.base</find>
-      <find>BaseResultMap</find>
-      <find>Stat</find>
       <find>druid</find>
       <find>ysql-connector-java</find>
       <find>mybatis-spring-boot-sta</find>
@@ -153,6 +127,12 @@
       <find>/test&quot;</find>
       <find>gsafe</find>
       <find>gsafety</find>
+      <find>xiao</find>
+      <find>com.spring.project.web.api</find>
+      <find>jButton</find>
+      <find>gscitylifeline</find>
+      <find>gsc</find>
+      <find>logger</find>
     </findStrings>
     <replaceStrings>
       <replace>w</replace>
@@ -166,17 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/spring-config-dubrpc.xml" />
-        <option value="$PROJECT_DIR$/project-web-call/pom.xml" />
-        <option value="$PROJECT_DIR$/../project-web-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/AppTest.java" />
-        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/UserInfo.java" />
-        <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/UserInfoExtend.java" />
-        <option value="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/entity/UserInfo.java" />
-        <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/UserInfoBaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/entity/UserInfoParam.java" />
-        <option value="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/mapper/BaseMapper.java" />
         <option value="$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/base/UserInfoMapper.xml" />
         <option value="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/service/impl/BaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/base/mapper/sql/UserInfoSql.java" />
@@ -191,7 +160,6 @@
         <option value="$PROJECT_DIR$/../project-web-core/pom.xml" />
         <option value="$PROJECT_DIR$/../project-web-core-base/pom.xml" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/component.xml" />
-        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" />
         <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/mapper/UserInfoMapper.java" />
         <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/impl/UserInfoServiceImpl.java" />
@@ -209,7 +177,6 @@
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/entity/query/QueryPage.java" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/QueryPage.java" />
-        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Application.java" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/QueryPageVo.java" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebConfigBeans.java" />
@@ -217,6 +184,19 @@
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/FilterConfig.java" />
         <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/WinfowForm.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/App.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/WindowsForm.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/LoggerQueue.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/CloudUtilsApplication.java" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/start.bat" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/stop.bat" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/app.properties" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.bat" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-test.xml" />
+        <option value="$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-prd.xml" />
       </list>
     </option>
   </component>
@@ -238,29 +218,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project-web-core-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project-web-core-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="project-web-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="59" />
-    <option name="y" value="37" />
+    <option name="x" value="65" />
+    <option name="y" value="15" />
     <option name="width" value="1689" />
     <option name="height" value="1040" />
   </component>
@@ -270,15 +236,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-web-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,18 +261,12 @@
               <item name="project-web-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-web-core-base" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,8 +278,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594978098767" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-project1.0/project-parent/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596094885739" />
+    <property name="last_opened_file_path" value="D:/project/20181103武汉治超/trunk/A8_代码库/jxproject/jx-parent/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -340,18 +298,18 @@
       <recent name="D:\github\code\java\spring-project-web1.0\project-web-core\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring.project.web.api" />
       <recent name="com.spring.project.web.api.config" />
       <recent name="com.spring.project.web.vo" />
       <recent name="com.spring.project.web.core.service.impl" />
       <recent name="com.spring.project.web.core.service.base" />
-      <recent name="com.spring.project.web.core.base.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\code\java\spring-project-web1.0\project-web-api\src\main\resources\bin" />
+      <recent name="D:\github\code\java\spring-project-web1.0\project-web-api\src\main\java\com\spring\project\web\api\config" />
       <recent name="D:\github\code\java\spring-project-web1.0\project-web" />
       <recent name="D:\github\code\java\spring-project-web1.0\project-web-api\src\lib" />
       <recent name="D:\github\code\java\spring-project-web1.0\project-web-core\src\main" />
-      <recent name="D:\github\code\java\spring-project-web1.0\project-web-core-base\src\main\java\com\spring\project\web\core\mapper\sql" />
-      <recent name="D:\github\code\java\spring-project-web1.0\project-web-core-base\src\main\java\com\spring\project\web\core\mapper\base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,21 +325,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.project.web.api.AppTest" />
-      <module name="project-web-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.project.web.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.project.web.api.AppTest2" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.web.api.App" />
       <module name="project-web-api" />
       <extension name="coverage">
         <pattern>
@@ -406,8 +351,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.project.web.api.FileReplace" />
+    <configuration name="CloudUtilsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.web.api.CloudUtilsApplication" />
+      <module name="project-web-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.project.web.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinfowForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.web.api.WinfowForm" />
       <module name="project-web-api" />
       <extension name="coverage">
         <pattern>
@@ -435,10 +393,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.CloudUtilsApplication" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.WinfowForm" />
         <item itemvalue="Application.Apptest3" />
-        <item itemvalue="Application.FileReplace" />
-        <item itemvalue="Application.AppTest2" />
-        <item itemvalue="Application.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -546,17 +504,28 @@
       <workItem from="1594797667170" duration="3812000" />
       <workItem from="1594861677181" duration="1215000" />
       <workItem from="1594977860201" duration="368000" />
+      <workItem from="1595314811242" duration="7778000" />
+      <workItem from="1595407740130" duration="955000" />
+      <workItem from="1595409273665" duration="127000" />
+      <workItem from="1595409529603" duration="327000" />
+      <workItem from="1595410214989" duration="5000" />
+      <workItem from="1595815836158" duration="11000" />
+      <workItem from="1595820318008" duration="22000" />
+      <workItem from="1595921543269" duration="2364000" />
+      <workItem from="1596002857672" duration="1396000" />
+      <workItem from="1596004783540" duration="2932000" />
+      <workItem from="1596072075171" duration="2812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305201000" />
+    <option name="totallyTimeSpent" value="323930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.2238806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.25906184" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,7 +535,7 @@
       <window_info id="Web" order="7" sideWeight="0.50270855" side_tool="true" weight="0.17643923" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.3033586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.30227518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.17768148" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +551,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18070363" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.09115139" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -634,87 +603,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../project-web-core-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/RespResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/mapper/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.template">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-core/src/main/java/com/spring/project/web/core/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Apptest3.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/sql/DatabaseMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1663" column="14" selection-start-line="1663" selection-start-column="14" selection-end-line="1663" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-core-base/src/main/java/com/spring/project/web/core/entity/base/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/assembly/component.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/project/App.java" />
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/AppTest2.java" />
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/FileReplace.java" />
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/DozerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/AppContorller.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml.template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="289" column="57" selection-start-line="289" selection-start-column="57" selection-end-line="289" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-web-core/src/main/resources/mapper/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
@@ -825,23 +713,6 @@
     <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/application-prd.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#2541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.38/fastjson-1.2.38-sources.jar!/com/alibaba/fastjson/serializer/SerializerFeature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -857,13 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -885,19 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#70#1415#0" />
-            <element signature="e#1418#1501#0" />
-            <element signature="e#1534#1585#0" />
-            <element signature="e#1652#1927#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-350">
@@ -912,42 +763,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebConfigBeans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="method#test3#0;class#TestController#0" />
-            <element signature="method#test#0;class#TestController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
@@ -968,10 +784,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebConfigBeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/vo/RespResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/WinfowForm.java" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/LogFilter.java" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/App.java" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/WindowsForm.java" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/CloudUtilsApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/LoggerQueue.java" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="68" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="3657">
+          <caret line="159" column="23" selection-start-line="32" selection-start-column="26" selection-end-line="159" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/bin/startup.bat" />
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/bin/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/dozer/dozer-mapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/bin/service.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" column="79" lean-forward="true" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/bin/start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/bin/stop.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/resources/logback/logback-prd.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-web-api/src/main/java/com/spring/project/web/api/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="238" column="26" lean-forward="true" selection-start-line="238" selection-start-column="26" selection-end-line="238" selection-end-column="26" />
+          <folding>
+            <element signature="method#test3#0;class#TestController#0" />
+            <element signature="method#test#0;class#TestController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,6 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
   <modules>
     <module>../springboot-demo-swagger</module>
+    <module>../springboot-demo-druid</module>
+    <module>../springboot-demo-swing</module>
+    <module>../springboot-demo-kafka</module>
+    <module>../springboot-demo-logback</module>
+    <module>../springboot-demo-redis</module>
+      <module>../springboot-demo-start</module>
   </modules>
 
   <!--spring boot-->
@@ -29,58 +35,301 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <dependencyManagement>
 
-  <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
-        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
-        </plugin>
-        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
-        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
-        <plugin>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.7.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+      </dependency>
+
+      <!--begin apache commons工具类-->
+      <dependency>
+        <groupId>commons-net</groupId>
+        <artifactId>commons-net</artifactId>
+        <version>3.3</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.6</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.8.1</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>3.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-compress</artifactId>
+        <version>1.9</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-validator</groupId>
+        <artifactId>commons-validator</artifactId>
+        <version>1.6</version>
+      </dependency>
+      <!--end apache commons工具类-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>1.1.9</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+        <version>1.1.9</version>
+      </dependency>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.42</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.2.38</version>
+      </dependency>
+      <dependency>
+        <groupId>net.sf.dozer</groupId>
+        <artifactId>dozer</artifactId>
+        <version>5.5.1</version>
+      </dependency>
+
+      <!--begin 权限验证-->
+      <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-spring</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <!--shiro依赖-->
+      <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-all</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <!--shiro添加ehcache缓存 -->
+      <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-ehcache</artifactId>
+        <version>1.2.6</version>
+      </dependency>
+      <!--end 权限验证-->
+
+      <!-- swagger2 -->
+      <!-- 用于JSON API文档的生成-->
+      <!--<dependency>-->
+      <!--<groupId>io.springfox</groupId>-->
+      <!--<artifactId>springfox-swagger2</artifactId>-->
+      <!--<version>2.7.0</version>-->
+      <!--</dependency>-->
+      <!--用于文档界面展示-->
+      <!--<dependency>-->
+      <!--<groupId>io.springfox</groupId>-->
+      <!--<artifactId>springfox-swagger-ui</artifactId>-->
+      <!--<version>2.7.0</version>-->
+      <!--</dependency>-->
+      <dependency>
+        <groupId>com.github.xiaoymin</groupId>
+        <artifactId>knife4j-spring-boot-starter</artifactId>
+        <!--在引用时请在maven中央仓库搜索最新版本号-->
+        <version>2.0.2</version>
+      </dependency>
+
+      <!--加解密-->
+      <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcprov-jdk15on</artifactId>
+        <version>1.59</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>cn.afterturn</groupId>
+        <artifactId>easypoi-base</artifactId>
+        <version>3.2.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+
+
+
+    <build>
+        <pluginManagement>
+            <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+                <!--打包指定jdk版本-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                    </configuration>
+                </plugin>
+                <!--<plugin>-->
+                <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                <!--<version>2.22.1</version>-->
+                <!--</plugin>-->
+                <!--<plugin>-->
+                <!--<artifactId>maven-jar-plugin</artifactId>-->
+                <!--<version>3.0.2</version>-->
+                <!--</plugin>-->
+                <!--<plugin>-->
+                <!--<artifactId>maven-install-plugin</artifactId>-->
+                <!--<version>2.5.2</version>-->
+                <!--</plugin>-->
+                <!--<plugin>-->
+                <!--<artifactId>maven-deploy-plugin</artifactId>-->
+                <!--<version>2.8.2</version>-->
+                <!--</plugin>-->
+                <!--&lt;!&ndash; site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle &ndash;&gt;-->
+                <!--<plugin>-->
+                <!--<artifactId>maven-site-plugin</artifactId>-->
+                <!--<version>3.7.1</version>-->
+                <!--</plugin>-->
+                <!--<plugin>-->
+                <!--<artifactId>maven-project-info-reports-plugin</artifactId>-->
+                <!--<version>3.0.0</version>-->
+                <!--</plugin>-->
+
+                <!--排除resources文件夹-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
+                    <configuration>
+                        <excludes>
+                            <!--注意这玩意从编译结果目录开始算目录结构-->
+                            <exclude>/**/*.xml</exclude>
+                            <exclude>/**/*.yml</exclude>
+                            <exclude>logback/**</exclude>
+                            <exclude>assembly/**</exclude>
+                            <exclude>bin/**</exclude>
+                            <exclude>assembly/**</exclude>
+                            <exclude>dozer/**</exclude>
+                            <exclude>logback/**</exclude>
+                            <exclude>static/**</exclude>
+                            <exclude>templates/**</exclude>
+                        </excludes>
+                    </configuration>
+                </plugin>
+                <!--生成java doc-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>2.9.1</version>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                        <aggregate>true</aggregate>
+                        <charset>UTF-8</charset>
+                        <docencoding>UTF-8</docencoding>
+                        <reportOutputDirectory>./target/javadoc</reportOutputDirectory>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>attach-javadocs</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!--打包-->
+                <!-- 打包命令 clean install -Dmaven.test.skip -Dprofiles.active=test-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>2.3</version>
+                    <executions>
+                        <execution>
+                            <id>assemble</id>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                            <phase>package</phase>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <appendAssemblyId>false</appendAssemblyId>
+                        <attach>false</attach>
+                        <!-- maven assembly插件需要一个描述文件 来告诉插件包的结构以及打包所需的文件来自哪里 -->
+                        <descriptors>
+                            <descriptor>${basedir}/src/main/resources/assembly/${profiles.active}.xml</descriptor>
+                        </descriptors>
+                        <finalName>${project.artifactId}-${project.version}-${maven.build.timestamp}</finalName>
+                        <outputDirectory>${project.build.directory}</outputDirectory>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+
+    <!-- 环境配置 -->
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profiles.active>dev</profiles.active>
+                <maven.test.skip>true</maven.test.skip>
+                <name>env</name>
+                <value>dev</value>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+                <maven.test.skip>true</maven.test.skip>
+                <name>env</name>
+                <value>test</value>
+            </properties>
+        </profile>
+        <profile>
+            <id>prd</id>
+            <properties>
+                <profiles.active>prd</profiles.active>
+                <maven.test.skip>true</maven.test.skip>
+                <scope.jar>provided</scope.jar>
+            </properties>
+        </profile>
+
+
+        <!--sonarqube相关配置 mvn sonar:sonar-->
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>http://10.5.4.130/sonar</sonar.host.url>
+                <sonar.login>xxx</sonar.login>
+                <sonar.projectName>xxx</sonar.projectName>
+            </properties>
+        </profile>
+    </profiles>
+
 </project>

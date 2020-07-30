@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95d3a568-69ed-462c-8fe5-1001c87d3589" name="Default Changelist" comment="" />
+    <list default="true" id="95d3a568-69ed-462c-8fe5-1001c87d3589" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/service.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/start.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/stop.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/win_start.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/logback/ApplicationLogback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/logback/job/JobProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/main/java/com/springboot/demo/start/Winform.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/main/java/com/springboot/demo/start/Winform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/ApplicationSwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/TestJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/WinForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/job/JobProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LoggerMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LoggerQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/startup.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/src/main/java/com/springboot/demo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/src/main/java/com/springboot/demo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/src/test/java/com/springboot/demo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/src/test/java/com/springboot/demo/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../project-demo-other/target/" />
@@ -29,10 +83,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../project-demo-other/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="276">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -47,6 +101,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>frame</find>
+      <find>label</find>
+      <find>test</find>
+      <find>textarea</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -55,7 +117,6 @@
       <list>
         <option value="$PROJECT_DIR$/../project-demo-io/src/main/java/com/spring/project/demo/io/FileChangeWatchService.java" />
         <option value="$PROJECT_DIR$/../project-demo-io/src/main/java/com/spring/project/demo/io/Application.java" />
-        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" />
         <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/TypeEnum.java" />
         <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/TypeEnum.java" />
         <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/EncryptJsApp.java" />
@@ -63,6 +124,18 @@
         <option value="$PROJECT_DIR$/../project-demo-other/pom.xml" />
         <option value="$PROJECT_DIR$/../project-demo-io/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.form" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App2.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/WinForm.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/WinForm.form" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/App.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/Main.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.form" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.form" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.java" />
+        <option value="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.java" />
       </list>
     </option>
   </component>
@@ -94,9 +167,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="59" />
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="148" />
+    <option name="y" value="28" />
     <option name="width" value="1689" />
     <option name="height" value="1040" />
   </component>
@@ -106,32 +179,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="project-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="351" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594978341405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595829962492" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,13 +209,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EncryptJsApp">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.enums.App" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.form.App" />
       <module name="project-demo-other" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.project.demo.other.enums.*" />
+          <option name="PATTERN" value="com.spring.project.demo.other.form.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,6 +226,7 @@
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.App" />
       <module name="project-demo-other" />
+      <option name="ENABLE_SWING_INSPECTOR" value="true" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.project.demo.other.enums.*" />
@@ -172,12 +237,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncryptJsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.EncryptJsApp" />
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.enums.App2" />
       <module name="project-demo-other" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.project.demo.other.*" />
+          <option name="PATTERN" value="com.spring.project.demo.other.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.form.Main" />
+      <module name="project-demo-other" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.project.demo.other.form.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinForm2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.project.demo.other.form.WinForm2" />
+      <module name="project-demo-other" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.project.demo.other.form.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,9 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EncryptJsApp" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.WinForm2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,17 +306,29 @@
       <workItem from="1568085416406" duration="191000" />
       <workItem from="1568085645834" duration="77000" />
       <workItem from="1594978250138" duration="105000" />
+      <workItem from="1595314792125" duration="12000" />
+      <workItem from="1595383821237" duration="7000" />
+      <workItem from="1595383840841" duration="1692000" />
+      <workItem from="1595385897808" duration="9658000" />
+      <workItem from="1595403689801" duration="467000" />
+      <workItem from="1595404281259" duration="4067000" />
+      <workItem from="1595410202097" duration="31000" />
+      <workItem from="1595495666498" duration="489000" />
+      <workItem from="1595820348753" duration="6000" />
+      <workItem from="1595829891736" duration="93000" />
+      <workItem from="1595837162925" duration="12000" />
+      <workItem from="1595837210455" duration="3000" />
+      <workItem from="1596092587095" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6364000" />
+    <option name="totallyTimeSpent" value="22903000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="148" y="28" width="1689" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17802332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22318527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,14 +347,14 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.36995828" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36944744" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -291,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/EncryptJsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -315,24 +413,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-demo-other/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.jfd" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.form" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/WinForm.form" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/WinForm.java" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/enums/App2.java" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/App.java" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/Winform.jfd" />
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/awt/LayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="605" column="31" selection-start-line="605" selection-start-column="26" selection-end-line="605" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="87" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/awt/TextComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6808">
+          <caret line="334" column="16" selection-start-line="334" selection-start-column="16" selection-end-line="334" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="63" column="29" selection-start-line="55" selection-start-column="26" selection-end-line="70" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-demo-other/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>

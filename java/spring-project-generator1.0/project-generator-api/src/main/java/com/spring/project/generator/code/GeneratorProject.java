@@ -25,13 +25,13 @@ public class GeneratorProject {
 
     public void init() {
         ProjectEntity projectEntity = new ProjectEntity();
-        projectEntity.setProjectName("project-yantai");
-        projectEntity.setGroupId("com.gscitylifeline");
-        projectEntity.setArtifactId("proj-yantai-web");
+        projectEntity.setProjectName("project");
+        projectEntity.setGroupId("com");
+        projectEntity.setArtifactId("proj-web");
         projectEntity.setVersionName("1.0-SNAPSHOT");
         projectEntity.setPackaging("pom");
-        projectEntity.setPackaging("com.gscitylifeline.proj.yantai");
-        projectEntity.setProjectnameComment("烟台项目");
+        projectEntity.setPackaging("com.proj");
+        projectEntity.setProjectnameComment("xx项目");
 
         generatFolder(projectEntity);
         generatorProjectWeb(projectEntity);
