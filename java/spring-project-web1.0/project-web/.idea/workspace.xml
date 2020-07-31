@@ -164,7 +164,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="65" />
     <option name="y" value="15" />
     <option name="width" value="1689" />
@@ -190,7 +190,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596103145621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596158449129" />
     <property name="last_opened_file_path" value="D:/project/20181103武汉治超/trunk/A8_代码库/jxproject/jx-parent/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -426,15 +426,15 @@
       <workItem from="1595921543269" duration="2364000" />
       <workItem from="1596002857672" duration="1396000" />
       <workItem from="1596004783540" duration="2932000" />
-      <workItem from="1596072075171" duration="4569000" />
+      <workItem from="1596072075171" duration="5332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325687000" />
+    <option name="totallyTimeSpent" value="326450000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.25906184" />
