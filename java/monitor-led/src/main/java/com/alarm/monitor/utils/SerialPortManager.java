@@ -91,7 +91,7 @@ public class SerialPortManager {
      */
     public static String sendToPort(int n, SerialPort serialPort, byte[] order) {
         OutputStream out = null;
-        logger.info("sendToPort {}", ByteUtils.byteArrayToHexString(order));
+        logger.debug("sendToPort {}", ByteUtils.byteArrayToHexString(order));
         if (serialPort == null) {
             logger.warn("串口设备为空");
             return null;
@@ -110,14 +110,14 @@ public class SerialPortManager {
             e.printStackTrace();
 
 
-            try {
-                logger.warn("serial retry {}", ByteUtils.byteArrayToHexString(order));
-                out = serialPort.getOutputStream();
-                out.write(order);
-                out.flush();
-            } catch (IOException e1) {
-                logger.error("", e);
-            }
+//            try {
+//                logger.warn("serial retry {}", ByteUtils.byteArrayToHexString(order));
+//                out = serialPort.getOutputStream();
+//                out.write(order);
+//                out.flush();
+//            } catch (IOException e1) {
+//                logger.error("", e);
+//            }
         } finally {
             try {
                 if (out != null) {

@@ -128,14 +128,17 @@ public class AlarmLedController {
         if (respResult == null || respResult.getCode() != 200) {
             return respResult;
         }
-        int sleep = AlarmSleep;
+        double sleep = AlarmSleep / 1000d;
         double totalSleep = 0;
         int i = 0;
+        long n1 = System.currentTimeMillis(), n2 = 0;
+
         while (true) {
-            logger.info("报警中 {}s", totalSleep);
-            totalSleep += ((sleep * 2) / 1000d);
+            logger.info("报警中 {}s",  ((n2 - n1) / 1000f));
+            totalSleep += ((sleep * 2));
             //System.out.println(totalSleep + " " + alarmMaxTime);
-            if (alarmMaxTime > 0 && totalSleep > alarmMaxTime) {
+            n2 = System.currentTimeMillis();
+            if (alarmMaxTime > 0 && ((n2 - n1) / 1000f) > alarmMaxTime) {
                 logger.info("报警中止1");
                 closeSerialPort();
                 return respResult;
@@ -143,7 +146,7 @@ public class AlarmLedController {
 
             String result = null;
             try {
-                result = SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte(ary[alarmLevel - 1]));
+                result = SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte(ary[alarmLevel - 1]));
             } catch (Exception e) {
                 logger.error("发送声音命令异常", e);
             }
@@ -154,12 +157,12 @@ public class AlarmLedController {
             }
             if (voice == 1) {
                 //&& (i % 3) == 0
-                SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte("01050004FF00CDFB"));
+                SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte("01050004FF00CDFB"));
             }
             try {
-                Thread.sleep(sleep / 2);
-                SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte("01050005FF009C3B"));
-                Thread.sleep(sleep / 2);
+                Thread.sleep(AlarmSleep/2);
+                SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte("01050005FF009C3B"));
+                Thread.sleep(AlarmSleep/2);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -193,7 +196,7 @@ public class AlarmLedController {
         CloseStatus = true;
         openSerialPort();
         try {
-            SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte("01050005FF009C3B"));
+            SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte("01050005FF009C3B"));
         } catch (Exception e) {
             respResult.setCode(500, "串口设备取消指令失败 01050005FF009C3B");
             logger.error("串口设备取消指令失败 01050005FF009C3B", e);
@@ -213,15 +216,15 @@ public class AlarmLedController {
         } catch (Exception e) {
             return respResult;
         }
-        String result=null;
+        String result = null;
         try {
-            result = SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte(ary[alarmLevel - 1]));
+            result = SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte(ary[alarmLevel - 1]));
         } catch (Exception e) {
             logger.error("发送声音命令异常", e);
         }
         if (voice == 1) {
             //&& (i % 3) == 0
-            SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte("01050004FF00CDFB"));
+            SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte("01050004FF00CDFB"));
         }
         try {
             Thread.sleep(2000);
@@ -282,7 +285,7 @@ public class AlarmLedController {
     private void closeSerialPort() {
         String result;
         try {
-            result = SerialPortManager.sendToPort(0,mSerialport, ByteUtils.hexStr2Byte("01050005FF009C3B"));
+            result = SerialPortManager.sendToPort(0, mSerialport, ByteUtils.hexStr2Byte("01050005FF009C3B"));
         } catch (Exception e) {
             logger.error("串口设备取消指令失败 01050005FF009C3B", e);
         }

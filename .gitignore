@@ -1,4 +1,6 @@
+*.class
 
+*.log
 java/generator/
 java/monitor-led/.idea/compiler.xml
 java/monitor-led/.idea/encodings.xml
@@ -12,3 +14,12 @@ java/spring-project-web1.0/project-web/.idea/workspace.xml
 java/spring-project-web1.0/logs/log.log
 java/spring-project-web1.0/project-web/.idea/workspace.xml
 java/spring-project-web1.0/project-web/.idea/workspace.xml
+*/.idea/*
+*/.idea/**
+.idea
+*.log
+*.class
+*.class
+*.class
+*.class
+*.class

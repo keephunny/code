@@ -4,8 +4,8 @@ server:
   session-timeout: 30
 
 #串口名称
-commName: COM4
+commName: COM3
 #报警时长 0：永久除非手动关闭  单少秒
-alarmMaxTime: 9
+alarmMaxTime: 5
 #闪烁间隔毫秒 参考 alarmMaxTime 计算配置
-alarmSleep: 100
+alarmSleep: 20
