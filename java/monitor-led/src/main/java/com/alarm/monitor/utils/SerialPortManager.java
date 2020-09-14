@@ -4,6 +4,7 @@ import gnu.io.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -60,11 +61,13 @@ public class SerialPortManager {
                     serialPort.setSerialPortParams(baudrate, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_EVEN);
                 } catch (UnsupportedCommOperationException e) {
                     e.printStackTrace();
+                    logger.error("", e);
                 }
                 return serialPort;
             }
         } catch (NoSuchPortException e1) {
             e1.printStackTrace();
+            logger.error("", e1);
         }
         return null;
     }
@@ -86,8 +89,9 @@ public class SerialPortManager {
      * @param serialPort 串口对象
      * @param order      待发送数据
      */
-    public static String sendToPort(SerialPort serialPort, byte[] order) {
+    public static String sendToPort(int n, SerialPort serialPort, byte[] order) {
         OutputStream out = null;
+        logger.debug("sendToPort {}", ByteUtils.byteArrayToHexString(order));
         if (serialPort == null) {
             logger.warn("串口设备为空");
             return null;
@@ -97,7 +101,23 @@ public class SerialPortManager {
             out.write(order);
             out.flush();
         } catch (IOException e) {
+//            n++;
+//            if (n <= 2) {
+//                logger.warn("serial retry {}", ByteUtils.byteArrayToHexString(order));
+//                sendToPort(n, serialPort, order);
+//            }
+            logger.error("", e);
             e.printStackTrace();
+
+
+//            try {
+//                logger.warn("serial retry {}", ByteUtils.byteArrayToHexString(order));
+//                out = serialPort.getOutputStream();
+//                out.write(order);
+//                out.flush();
+//            } catch (IOException e1) {
+//                logger.error("", e);
+//            }
         } finally {
             try {
                 if (out != null) {
@@ -105,6 +125,7 @@ public class SerialPortManager {
                     out = null;
                 }
             } catch (IOException e) {
+                logger.error("", e);
                 e.printStackTrace();
             }
         }
@@ -133,6 +154,7 @@ public class SerialPortManager {
                 bytesNum = in.read(readBuffer);
             }
         } catch (IOException e) {
+            logger.error("", e);
             e.printStackTrace();
         } finally {
             try {
@@ -141,6 +163,7 @@ public class SerialPortManager {
                     in = null;
                 }
             } catch (IOException e) {
+                logger.error("", e);
                 e.printStackTrace();
             }
         }
@@ -163,6 +186,7 @@ public class SerialPortManager {
             serialPort.notifyOnBreakInterrupt(true);
         } catch (TooManyListenersException e) {
             e.printStackTrace();
+            logger.error("", e);
         }
     }
 
