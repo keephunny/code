@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95d3a568-69ed-462c-8fe5-1001c87d3589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/WindowsForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/form/WinForm2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/service.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/start.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/stop.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/win_start.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/logback/ApplicationLogback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/logback/job/JobProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/main/java/com/springboot/demo/start/Winform.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-start/src/main/java/com/springboot/demo/start/Winform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/ApplicationSwing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/TestJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/WinForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/Winform2Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/job/JobProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LoggerMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/java/com/springboot/demo/swing/log/LoggerQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swing/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-demo-other/src/main/java/com/spring/project/demo/other/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-project-web1.0/project-web-api/src/main/resources/bin/startup.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-logback/src/main/java/com/springboot/demo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/src/main/java/com/springboot/demo/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-swagger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/src/main/java/com/springboot/demo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-demo1.0/springbott-demo-druid/src/test/java/com/springboot/demo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-demo1.0/springboot-demo-druid/src/test/java/com/springboot/demo/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="95d3a568-69ed-462c-8fe5-1001c87d3589" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../project-demo-other/target/" />
@@ -319,16 +265,17 @@
       <workItem from="1595837162925" duration="12000" />
       <workItem from="1595837210455" duration="3000" />
       <workItem from="1596092587095" duration="2000" />
+      <workItem from="1596161371089" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22903000" />
+    <option name="totallyTimeSpent" value="22908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="148" y="28" width="1689" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17802332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17986494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

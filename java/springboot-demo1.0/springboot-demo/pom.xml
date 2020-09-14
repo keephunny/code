@@ -11,6 +11,7 @@
     <module>../springboot-demo-logback</module>
     <module>../springboot-demo-redis</module>
       <module>../springboot-demo-start</module>
+      <module>../springboot-demo-keycloak</module>
   </modules>
 
   <!--spring boot-->

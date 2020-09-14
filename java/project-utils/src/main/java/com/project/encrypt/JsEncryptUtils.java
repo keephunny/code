@@ -25,11 +25,12 @@ public class JsEncryptUtils {
     private static Base64 base64 = new Base64();
 
     public static void main(String[] args) throws Exception {
-        String str = "zjj#2019";
+        String str = "cz123456";
         String key = "12abcdf4567asdf8";
 
         String strKey = encrypt(str, key);
         logger.info(strKey);
+        strKey="p44iw5ADg5BUQpw4i372dQ==";
         logger.info(decrypt(strKey, key));
         //kpwBem+vRJcAvYfE30fF7w==
     }
