@@ -12,6 +12,7 @@
     <module>../springboot-demo-redis</module>
       <module>../springboot-demo-start</module>
       <module>../springboot-demo-keycloak</module>
+      <module>../springboot-demo-sso</module>
   </modules>
 
   <!--spring boot-->
