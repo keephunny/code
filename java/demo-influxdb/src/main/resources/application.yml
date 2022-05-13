@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  influx:
+    url: http://192.168.54.121:8086 #influxdb服务器的地址
+    user: test #用户名
+    password: 123456 #密码
+    database: mydb #指定的数据库
