@@ -34,21 +34,21 @@ public class TcpServerLengthBase {
                     .group(boss, worker)
                     .option(ChannelOption.SO_BACKLOG, 1024 * 2) //设置TCP缓冲区
                     .option(ChannelOption.SO_RCVBUF, 32 * 1024) //设置接受数据缓冲大小
-                    .childOption(ChannelOption.SO_KEEPALIVE, true)//保持连接
+                    //.childOption(ChannelOption.SO_KEEPALIVE, true)//保持连接
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) {
                             logger.info("收到新的客户端连接: {}",ch.toString());
                             ch.pipeline().addLast(new TcpServerLengthBaseHandler());
-                            ch.pipeline().addLast(new StringDecoder());
-                            ch.pipeline().addLast(new ChannelInboundHandlerAdapter() {
-                                @Override
-                                public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-                                    ByteBuf buf = (ByteBuf) msg;
-                                    logger.info("接收数据 size:{}", buf.readableBytes());
-                                    logger.info("接收数据:{}", ByteBufUtil.hexDump(buf));
-                                }
-                            });
+                            //ch.pipeline().addLast(new StringDecoder());
+                            //ch.pipeline().addLast(new ChannelInboundHandlerAdapter() {
+//                                @Override
+//                                public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+//                                    ByteBuf buf = (ByteBuf) msg;
+//                                    logger.info("接收数据 size:{}", buf.readableBytes());
+//                                    logger.info("接收数据:{}", ByteBufUtil.hexDump(buf));
+//                                }
+//                            });
                         }
                     });
 

@@ -37,13 +37,15 @@ public class TcpServerLengthBaseHandler extends LengthFieldBasedFrameDecoder {
 
     @Override
     protected Object decode(ChannelHandlerContext ctx, ByteBuf in) throws Exception {
-        ByteBuf buf = (ByteBuf) super.decode(ctx, in);
+        //ByteBuf buf = (ByteBuf) super.decode(ctx, in);
         logger.info("{}", in.readableBytes());
         logger.info("{}", ByteBufUtil.hexDump(in));
 
         //后面没有handler了
-        return buf;
-//        return null;
+        //return buf;
+        return null;
     }
+
+
 
 }

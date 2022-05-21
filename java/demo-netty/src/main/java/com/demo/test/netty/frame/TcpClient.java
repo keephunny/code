@@ -37,17 +37,19 @@ public class TcpClient {
                             ch.pipeline().addLast(new ChannelInboundHandlerAdapter() {
                                 @Override
                                 public void channelActive(ChannelHandlerContext ctx) throws Exception {
-                                    logger.info("send");
                                     ByteBuf buf = ctx.alloc().buffer();
                                     //头标识 F0 F0
                                     buf.writeBytes(new byte[]{120, 120});
-                                    int dataLen=6;
-                                    int total =  dataLen * 16 +10 ;
+                                    int dataLen = 65;
+                                    int total = dataLen * 16 + 10;
                                     buf.writeMedium(total);
                                     for (int i = 0; i < dataLen; i++) {
                                         buf.writeBytes(new byte[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15});
                                     }
+
+
                                     ctx.writeAndFlush(buf);
+                                    logger.info("send {}", buf.readableBytes());
                                 }
 
                             });
